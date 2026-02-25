@@ -1,8 +1,8 @@
 **[繁體中文版](./README-zh-TW.md)**
 
-# Astro-Civilizations Hypothesis
+# Planetary Relay Hypothesis
 
-**Cosmic Life Diffusion, Civilization Evolution, and Extraterrestrial Phenomenon Structure Hypothesis**
+**行星接力假說**
 
 A structured hypothesis framework exploring the statistical foundations of cosmic life, the energy and material thresholds of civilization evolution, and a rigorous multi-source classification model for extraterrestrial phenomena — grounded in physics, engineering feasibility, and falsifiable reasoning.
 

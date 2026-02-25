@@ -1,4 +1,6 @@
-# Cosmic Life Diffusion, Civilization Evolution, and Extraterrestrial Phenomenon Structure Hypothesis
+# Planetary Relay Hypothesis
+
+*— A Structural Analysis Framework on Cosmic Life Diffusion, Civilization Evolution, and Extraterrestrial Phenomena*
 
 ---
 

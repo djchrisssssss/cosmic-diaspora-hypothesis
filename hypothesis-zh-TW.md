@@ -1,6 +1,8 @@
-# 宇宙生命擴散、文明演化與外星現象結構假說
+# 行星接力假說
 
-**A Structural Hypothesis on Cosmic Life Diffusion, Civilization Evolution, and Extraterrestrial Phenomena**
+**Planetary Relay Hypothesis**
+
+*——宇宙生命擴散、文明演化與外星現象的結構分析框架*
 
 ---
 
