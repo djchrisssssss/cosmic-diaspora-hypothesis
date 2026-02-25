@@ -1,3 +1,5 @@
+**[繁體中文版](./README-zh-TW.md)**
+
 # Astro-Civilizations Hypothesis
 
 **Cosmic Life Diffusion, Civilization Evolution, and Extraterrestrial Phenomenon Structure Hypothesis**
