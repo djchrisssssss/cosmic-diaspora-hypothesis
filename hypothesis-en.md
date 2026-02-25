@@ -431,9 +431,16 @@ Assuming civilizations originating from outside the solar system, their interact
 
 ### 4.4 Intra-Solar System Observation Station & Outpost Model
 
-The locations listed above (lunar lava tubes, Martian subsurface, asteroid belt, outer planet moons) share a common characteristic: **environmental conditions are extremely unsuitable for large-scale permanent civilization habitation** — no or extremely thin atmospheres, extreme temperatures, high radiation, and lack of stable ecosystems.
+Assuming a civilization has established outposts within the solar system. Potential locations with natural shielding conditions include:
 
-However, these locations are highly suitable from an engineering perspective as **observation stations, relay posts, or automated monitoring outposts**. The energy and material requirements for maintaining an observation station are far lower than sustaining a colonial settlement, which better aligns with the cost logic of interstellar engineering.
+- **Lunar lava tubes** — Natural cave structures, closest to Earth.
+- **Martian subsurface** — Confirmed presence of water ice and suspected lava tube entrances.
+- **Asteroid belt** — Vast in number, dispersed, and difficult to survey individually.
+- **Outer planet moons** (Europa, Titan) — Resources such as water ice or liquid hydrocarbons available.
+
+However, these locations share a common characteristic: **environmental conditions are extremely unsuitable for large-scale permanent civilization habitation** — no or extremely thin atmospheres, extreme temperatures, high radiation, and lack of stable ecosystems.
+
+This leads to a key inference: if non-natural facilities exist at these locations, they are far more likely to be **observation stations, relay posts, or automated monitoring outposts** rather than full colonial settlements. The energy and material requirements for maintaining an observation station are far lower than sustaining a colony, which better aligns with the cost logic of interstellar engineering.
 
 #### Existence Spectrum
 
