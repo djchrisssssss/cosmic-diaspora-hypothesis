@@ -429,14 +429,43 @@ Some UAP reports can be attributed to known but rare physical phenomena:
 
 Assuming civilizations originating from outside the solar system, their interaction with Earth may be extremely indirect. See Part IV, Chapter V for details.
 
-### 4.4 Intra-Solar System Hidden Civilization Model
+### 4.4 Intra-Solar System Observation Station & Outpost Model
 
-Assuming a civilization has established outposts within the solar system. Possible locations include:
+The locations listed above (lunar lava tubes, Martian subsurface, asteroid belt, outer planet moons) share a common characteristic: **environmental conditions are extremely unsuitable for large-scale permanent civilization habitation** — no or extremely thin atmospheres, extreme temperatures, high radiation, and lack of stable ecosystems.
 
-- Lunar lava tubes
-- Martian subsurface
-- Asteroid belt
-- Outer planet moons (e.g., Europa, Titan)
+However, these locations are highly suitable from an engineering perspective as **observation stations, relay posts, or automated monitoring outposts**. The energy and material requirements for maintaining an observation station are far lower than sustaining a colonial settlement, which better aligns with the cost logic of interstellar engineering.
+
+#### Existence Spectrum
+
+The presence of non-Earth outposts within the solar system can be arranged along a spectrum:
+
+| Level | Form | Personnel Requirement | Applicable Environments |
+|-------|------|----------------------|------------------------|
+| L0 | Automated sensors / AI sentinels | None | Any location |
+| L1 | Unmanned observation station | None (remote-operated) | Lunar lava tubes, asteroid belt |
+| L2 | Small relay base | Minimal rotating crew | Martian subsurface, Lagrange points |
+| L3 | Limited-personnel outpost | Small permanent staff | Outer planet moons (Europa, Titan) |
+| L4 | Full colonial settlement | Large-scale self-sustaining | Only viable on highly habitable bodies |
+
+**The harsher the environmental conditions at a given location, the more likely only lower-spectrum facilities (L0–L1) exist there.**
+
+#### Multi-Source Cross-Reference Model
+
+Key insight: These observation stations **do not necessarily belong to the same source civilization**. Possible origins include:
+
+- **Forward observation stations of extra-solar civilizations** — Near-field extensions of long-range observation capabilities (cross-references 4.3).
+- **Monitoring facilities left behind by ancient Martian civilizations** — Automated legacy systems that continue operating after civilizational evacuation (cross-references 4.5).
+- **Remote nodes of ancient Earth civilizations** — External monitoring networks established by underground civilizations within the solar system (cross-references 4.6).
+- **Non-biological automated sentinel systems** — Von Neumann probes or AI-driven independent observation networks (cross-references 4.7).
+
+This model positions 4.4 as a **cross-referencing hub** within the entire classification framework: a single location within the solar system may simultaneously host facilities from multiple source civilizations, each operating independently with distinct objectives.
+
+#### Possible Locations & Corresponding Levels
+
+- **Lunar lava tubes** — L0–L2. Closest to Earth, ideal for real-time observation of terrestrial activity. Natural caves provide shielding from radiation and micrometeorites.
+- **Martian subsurface** — L1–L3. May represent remnant facilities of ancient Martian civilization, or relay stations established by external civilizations utilizing existing subsurface structures.
+- **Asteroid belt** — L0–L1. Ideal deployment zone for distributed sensor networks; facilities within a single asteroid are virtually undetectable.
+- **Outer planet moons (Europa, Titan)** — L1–L3. Resources such as water ice or liquid hydrocarbons enable long-term self-sustaining outposts.
 
 ### 4.5 Ancient Martian Civilization Remnant Model
 
