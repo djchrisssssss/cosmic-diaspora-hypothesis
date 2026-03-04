@@ -175,11 +175,11 @@ Three new references ([43]–[45]) were added and verified via CrossRef API.
 
 ### V-E. Issues Found in v2 Modifications
 
-| Issue | Severity | Recommendation |
-|-------|----------|---------------|
-| D-D fusion temperature stated as ~500 million K (§3.1) | Low | Value is at the upper end of the 300–500 MK range in literature. Consider broadening to "~300–500 million K" for precision. |
-| p-¹¹B fusion temperature stated as ~1 billion K (§3.1) | Low | Value is at the conservative lower end (literature: 1–3 billion K). Acceptable as stated. |
-| Venus energy budget table assumes He-filled habitat (§6b.4) | Low | Hydrogen would provide ~2× buoyancy but introduces explosion risk — could note this trade-off. Not critical. |
+| Issue | Severity | Status |
+|-------|----------|--------|
+| D-D fusion temperature stated as ~500 million K (§3.1) | Low | ✅ Resolved — broadened to "~300–500 million K" |
+| p-¹¹B fusion temperature stated as ~1 billion K (§3.1) | Low | ✅ Resolved — broadened to "~1–3 billion K" |
+| Venus buoyant structure lifting gas trade-off (§6b.4) | Low | ✅ Resolved — added H₂ vs He buoyancy/safety trade-off note |
 
 ### V-F. Supplemental Conclusion
 

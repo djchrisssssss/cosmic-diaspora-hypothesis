@@ -288,7 +288,7 @@ Note that the fuel self-sufficiency claim for D-T fusion requires qualification:
 - **Deuterium (D)**: Can be extracted from seawater in virtually unlimited quantities (seawater deuterium content ~33 mg/L).
 - **Tritium (T)**: Has a half-life of only 12.3 years and is virtually non-existent in nature. Reactors must self-produce tritium through a Lithium Breeding Blanket (⁶Li + n → T + ⁴He). The Tritium Breeding Ratio (TBR) must be >1.0 to maintain fuel self-sufficiency, imposing rigid requirements on blanket volume and neutronic design — the reactor has a minimum size floor determined by the breeding blanket volume, which constitutes a physical constraint on miniaturization.
 
-Alternative fuel pathways (D-D fusion or p-¹¹B fusion) can avoid tritium dependence, but require higher plasma temperatures (D-D: ~500 million K; p-¹¹B: ~1 billion K) and have lower reaction cross-sections, further escalating the difficulty of materials and confinement engineering. An advanced civilization's choice of fusion technology pathway will directly determine the minimum viable reactor size.
+Alternative fuel pathways (D-D fusion or p-¹¹B fusion) can avoid tritium dependence, but require higher plasma temperatures (D-D: ~300–500 million K; p-¹¹B: ~1–3 billion K) and have lower reaction cross-sections, further escalating the difficulty of materials and confinement engineering. An advanced civilization's choice of fusion technology pathway will directly determine the minimum viable reactor size.
 
 ### 3.2 Room-Temperature Superconducting Materials & Magnetic Field Manipulation
 
@@ -738,7 +738,7 @@ This environmental band represents the only **non-solid-surface civilization sur
 
 If a civilization possesses:
 
-- **Buoyant structure engineering** — Exploiting the density difference between Venus's atmospheric composition (primarily CO₂) and breathable gases (N₂/O₂); a nitrogen-oxygen gas mixture is naturally buoyant in Venus's atmosphere.
+- **Buoyant structure engineering** — Exploiting the density difference between Venus's atmospheric composition (primarily CO₂) and breathable gases (N₂/O₂); a nitrogen-oxygen gas mixture is naturally buoyant in Venus's atmosphere. If hydrogen (H₂) or helium (He) is used as the lifting gas instead, buoyancy can increase by approximately 1.5–2×, but hydrogen introduces explosion risk (in oxygen-containing gas mixtures), while helium faces resource acquisition constraints. Practical designs must trade off between buoyancy gain and safety.
 - **Sulfuric acid-resistant materials** — Venus's cloud layer contains concentrated sulfuric acid droplets, requiring highly corrosion-resistant hull materials.
 - **Closed-loop ecological systems** — Maintaining complete life support cycles within buoyant structures.
 - **Atmospheric chemical energy harvesting** — Utilizing chemical gradients in Venus's atmosphere as an energy source.
