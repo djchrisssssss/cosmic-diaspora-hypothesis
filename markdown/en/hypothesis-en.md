@@ -47,7 +47,7 @@ This hypothesis is based on the following statistical premises:
 
 This framework's statistical derivations require an additional epistemological caveat: the Anthropic Principle imposes non-trivial constraints on probabilistic reasoning. As observers, our very existence pre-selects an environment in which life has already emerged — this means we cannot directly infer "life is common in the universe" from the fact that "life exists on Earth" (Bostrom, 2002 [43]).
 
-Specifically: even if life is extraordinarily rare in the universe (f_l → 0), as long as at least one civilization emerges and produces observers, those observers will necessarily observe that their planet harbors life. This self-selection bias means that an N=1 observation cannot constrain the lower bound of f_l.
+Specifically: even if life is extraordinarily rare in the universe (*f*<sub>l</sub> → 0), as long as at least one civilization emerges and produces observers, those observers will necessarily observe that their planet harbors life. This self-selection bias means that an N=1 observation cannot constrain the lower bound of *f*<sub>l</sub>.
 
 This framework acknowledges this limitation and positions it as supplementary background for Section 1.6 (Abiogenesis Constraint). The framework's core derivations (Parts II through VIII) employ conditional structure ("if life/civilization already exists, then…"), and therefore are not affected by anthropic bias.
 
@@ -157,10 +157,10 @@ Specifically:
 
 - The existence of organic precursors (amino acids, nucleotides, etc.) is a necessary but not sufficient condition for life.
 - To date, no laboratory experiment has successfully produced a complete self-replicating system spontaneously from an inorganic environment.
-- Earth is the only known data point for the origin of life (N=1), which means we cannot make meaningful statistical inferences about the abiogenesis probability (f_l in the Drake Equation) — its value could range from ~1 (near-certain) to 10⁻⁴⁰ (extraordinarily rare).
+- Earth is the only known data point for the origin of life (N=1), which means we cannot make meaningful statistical inferences about the abiogenesis probability (*f*<sub>l</sub> in the Drake Equation) — its value could range from ~1 (near-certain) to 10⁻⁴⁰ (extraordinarily rare).
 - Panspermia (Section 1.5) does not resolve this problem; it merely relocates the site of abiogenesis to another celestial body.
 
-**Impact of this constraint on the framework:** If the true value of f_l is extremely low (e.g., <10⁻²⁰), then even with hundreds of billions of habitable planets in the universe, life may still be an extraordinarily rare event. In this scenario, Part I's conclusion of "high-probability statistical outcome" would not hold, but the conditional derivations in Parts II through VIII ("if life/civilization already exists, then…") remain valid, as they do not depend on the specific value of f_l.
+**Impact of this constraint on the framework:** If the true value of *f*<sub>l</sub> is extremely low (e.g., <10⁻²⁰), then even with hundreds of billions of habitable planets in the universe, life may still be an extraordinarily rare event. In this scenario, Part I's conclusion of "high-probability statistical outcome" would not hold, but the conditional derivations in Parts II through VIII ("if life/civilization already exists, then…") remain valid, as they do not depend on the specific value of *f*<sub>l</sub>.
 
 This framework explicitly acknowledges abiogenesis as an unresolved constraint and marks it as the single link with the highest uncertainty in the overall derivation chain.
 
