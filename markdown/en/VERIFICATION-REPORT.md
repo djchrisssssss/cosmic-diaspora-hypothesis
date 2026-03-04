@@ -197,3 +197,51 @@ No modifications introduce scientific errors or contradict existing verified con
 
 *Supplemental verification date: 2026-03-04*
 *Methods: CrossRef REST API v1, web-based literature cross-referencing*
+
+---
+
+## VI. Citation Audit & Supplemental References (2026-03-04)
+
+A comprehensive citation audit identified several categories of issues. All have been resolved.
+
+### VI-A. Missing Citation Tags in Body Text
+
+| Issue | Status |
+|-------|--------|
+| [44] Meech 2017 ('Oumuamua) tag missing from §13.7 body text | ✅ Resolved |
+| [45] Ivezić 2019 (LSST) tag missing from §13.7 body text | ✅ Resolved |
+
+### VI-B. Incomplete Reference
+
+| Issue | Status |
+|-------|--------|
+| [27] was an incomplete placeholder — now completed as: Bell, K. L. C. et al. (2025). "How little we've seen: A visual coverage estimate of the deep seafloor." *Science Advances*, 11(19). DOI: 10.1126/sciadv.adp8602 | ✅ Resolved |
+
+### VI-C. New References Added [46]–[54]
+
+Nine new references were added to support previously uncited quantitative claims:
+
+| Ref | Citation | Claim Supported | DOI Verified |
+|-----|----------|----------------|--------------|
+| [46] | McGuire, B. A. (2022) | ISM molecular species count (>300 as of 2025; 2021 census: 241, 2025 CDMS census: 334) | ✅ 10.3847/1538-4365/ac2a48 |
+| [47] | Williams, D. R. (2024) — NASA Venus Fact Sheet | Venus 462°C, 90 atm, 8.87 m/s² | ✅ NASA GSFC |
+| [48] | Ball, J. A. (1973) | Zoo Hypothesis | ✅ 10.1016/0019-1035(73)90111-5 |
+| [49] | Guzik, P. et al. (2020) | 2I/Borisov characterization | ✅ 10.1038/s41550-019-0931-8 |
+| [50] | Snodgrass, C. & Jones, G. H. (2019) | ESA Comet Interceptor mission | ✅ 10.1038/s41467-019-13470-1 |
+| [51] | Rightmire, G. P. (2004) | Brain volume tripling over ~2 Myr | ✅ 10.1002/ajpa.10346 |
+| [52] | Strom, R. G. et al. (1994) | Venus global resurfacing ~300–500 Mya | ✅ 10.1029/94JE00388 |
+| [53] | Melott, A. L. et al. (2004) | Ordovician GRB–extinction link | ✅ 10.1017/S1473550404001910 |
+| [54] | Wallner, A. et al. (2016) | Pliocene seabed iron-60 deposits | ✅ 10.1038/nature17196 |
+
+### VI-D. ISM Molecule Count Verification
+
+The document states "Over 300 molecular species" as of 2025. McGuire 2022 counted 241 species (as of 2021). The 2025 CDMS census (McGuire, presented at ISMS 2025) reports **334 molecules** as of February 2025. The "over 300" claim is therefore **verified as accurate**.
+
+### VI-E. Audit Conclusion
+
+All citation issues identified in the audit have been resolved. Total references: 54 (previously 45). All new DOIs verified via CrossRef or NASA GSFC. Citation tags added consistently across EN, ZH-TW, and LaTeX versions.
+
+---
+
+*Citation audit date: 2026-03-04*
+*Methods: CrossRef REST API, CDMS database, NASA planetary factsheets*

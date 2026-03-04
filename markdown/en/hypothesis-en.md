@@ -110,7 +110,7 @@ On cosmic timescales (10⁹ year scale):
 
 ### 1.3 Ubiquity of Organic Molecules in the Universe
 
-Over 300 molecular species have been detected in the interstellar medium as of 2025 (the vast majority being organic), including:
+Over 300 molecular species have been detected in the interstellar medium as of 2025 [46] (the vast majority being organic), including:
 
 - Amino acids and their precursors (e.g., glycine has been detected in the interstellar medium, Rivilla et al., 2025 [5])
 - Polycyclic aromatic hydrocarbons (PAHs)
@@ -545,7 +545,7 @@ Assuming Mars produced a civilization during its early habitable window, which w
 
 Assuming Venus produced life or even civilization during its early habitable window, which was subsequently destroyed or forced to migrate due to a runaway greenhouse effect. Venus's habitable window may have lasted over 2 billion years (approximately 700 million to 3 billion years ago), far exceeding Mars's 500 million to 1 billion years, giving it a unique position in the statistical probability of civilization formation.
 
-Key difference from the Mars model: Venus's runaway greenhouse effect rendered its surface environment (462°C, 90 atm) completely destructive to all solid-state remnants. However, a habitable zone exists at 50–60 km altitude in Venus's atmosphere where temperature (0–60°C) and pressure (~1 atm) approximate Earth's surface conditions. This provides derivation space for a survival pathway that neither the Earth nor Mars hypotheses can cover — the **atmospheric habitation model**.
+Key difference from the Mars model: Venus's runaway greenhouse effect rendered its surface environment (462°C, 90 atm) [47] completely destructive to all solid-state remnants. However, a habitable zone exists at 50–60 km altitude in Venus's atmosphere where temperature (0–60°C) and pressure (~1 atm) approximate Earth's surface conditions. This provides derivation space for a survival pathway that neither the Earth nor Mars hypotheses can cover — the **atmospheric habitation model**.
 
 See Part IV, Chapter VI-b for details.
 
@@ -599,7 +599,7 @@ If such probes have already reached the solar system, their size may be too smal
 
 ### 5.4 Low-Intervention Strategy
 
-Advanced civilizations may consciously choose not to intervene in Earth's civilizational development (similar to the "Zoo Hypothesis"). Possible reasons include:
+Advanced civilizations may consciously choose not to intervene in Earth's civilizational development (similar to the "Zoo Hypothesis" [48]). Possible reasons include:
 
 - Scientific value of observing natural evolutionary processes.
 - Ethical considerations regarding civilizational shock.
@@ -714,7 +714,7 @@ The mechanism by which Venus lost its habitability — the Runaway Greenhouse Ef
 
 - **Potentially faster** — Once positive feedback initiates, atmospheric temperature can climb from temperate to hundreds of degrees within millions of years.
 - **Greater irreversibility** — Once CO₂ is released from carbonate rocks, there is no reverse deposition mechanism.
-- **Complete surface destruction** — The current Venus surface temperature of 462°C and pressure of 90 atm would completely dissolve any solid-state civilization remnants.
+- **Complete surface destruction** — The current Venus surface temperature of 462°C and pressure of 90 atm [47] would completely dissolve any solid-state civilization remnants.
 
 If Venus civilization once existed, its possible responses to the runaway greenhouse effect:
 
@@ -731,7 +731,7 @@ A unique environmental band exists at 50–60 km altitude in Venus's atmosphere:
 |-----------|-------|-------------------------------|
 | Temperature | Approx. -10 to 75°C | Comparable (50–55 km most habitable) |
 | Pressure | ~0.2–1 atm | Comparable (~1 atm at 50 km, ~0.2 atm at 60 km) |
-| Gravity | 8.87 m/s² | 90% of Earth |
+| Gravity | 8.87 m/s² [47] | 90% of Earth |
 | Radiation shielding | Dense atmosphere | Superior to Earth |
 
 This environmental band represents the only **non-solid-surface civilization survival model** within the hypothesis framework.
@@ -777,8 +777,8 @@ Potential interweaving of Venus and Mars migration theories:
 
 The Venus hypothesis faces more stringent verification challenges than the Mars hypothesis:
 
-- **Surface remnants are completely inaccessible** — The 462°C, 90 atm environment limits any lander's lifespan to extremely short durations (the Soviet Venera series survived a maximum of approximately 127 minutes) [23].
-- **Geological timescale masking is more thorough** — The Venus surface underwent a global volcanic resurfacing event approximately 300–500 million years ago, erasing all earlier geological records.
+- **Surface remnants are completely inaccessible** — The 462°C, 90 atm [47] environment limits any lander's lifespan to extremely short durations (the Soviet Venera series survived a maximum of approximately 127 minutes) [23].
+- **Geological timescale masking is more thorough** — The Venus surface underwent a global volcanic resurfacing event approximately 300–500 million years ago [52], erasing all earlier geological records.
 - **Atmospheric habitation structures are difficult to detect from orbit** — If buoyant structures exist, their scale and characteristics may be indistinguishable from cloud features.
 
 However, the following observation pathways remain viable:
@@ -1057,11 +1057,11 @@ When cross-galactic deployment remains incomplete, the following cosmic-scale ev
 
 | Severance Type | Mechanism | Impact Radius | Historical Evidence |
 |----------------|-----------|--------------|-------------------|
-| Gamma-ray burst (GRB) | High-energy radiation released by nearby stellar collapse | Thousands of light-years | Possible link to the Ordovician mass extinction |
+| Gamma-ray burst (GRB) | High-energy radiation released by nearby stellar collapse | Thousands of light-years | Possible link to the Ordovician mass extinction [53] |
 | Extreme solar storm | Stellar superflare | Entire stellar system | A thousandfold version of the Carrington Event (1859) [34] |
 | Planetary chain impact | Asteroid belt perturbation triggering cascading impacts | Planetary scale | Hypothesized Late Heavy Bombardment (currently debated) [35] |
 | Severe orbital shift | Gravitational perturbation from nearby stars | Stellar system | Long-period orbital instabilities |
-| Supernova explosion | Nearby massive star detonation | Tens of light-years | Pliocene seabed iron-60 deposits |
+| Supernova explosion | Nearby massive star detonation | Tens of light-years | Pliocene seabed iron-60 deposits [54] |
 
 The common characteristic of these events: **destruction of the ecological supply chain and information carriers.**
 
@@ -1141,7 +1141,7 @@ Observations supporting this inference:
 - **The anomalous acceleration of human civilization**: From the agricultural revolution to space travel in approximately 12,000 years — on cosmic timescales, this is virtually explosive.
 - **Genetic bottleneck events**: Multiple episodes in human history where the population crashed to extremely small numbers.
 - **Structural similarities in cross-cultural mythology**: Themes of "lost civilizations," "departing gods," and "great floods" appear independently across the globe.
-- **Rapid stepwise expansion of cognitive capacity**: Human brain volume approximately tripled over ~2 million years (*Homo habilis* → *Homo sapiens*). Mainstream evolutionary explanations (social intelligence hypothesis, language co-evolution, cultural ratchet effect, etc.) already provide multi-factor models. However, within the cross-galactic deployment framework, an additional non-mutually-exclusive speculation is: if Earth received external biological seeding, the introduced genetic material may have already contained gene combinations with high cognitive potential, making the substrate of natural selection more favorable for rapid cognitive expansion. This speculation does not replace evolutionary explanations but is superimposed upon them.
+- **Rapid stepwise expansion of cognitive capacity**: Human brain volume approximately tripled over ~2 million years [51] (*Homo habilis* → *Homo sapiens*). Mainstream evolutionary explanations (social intelligence hypothesis, language co-evolution, cultural ratchet effect, etc.) already provide multi-factor models. However, within the cross-galactic deployment framework, an additional non-mutually-exclusive speculation is: if Earth received external biological seeding, the introduced genetic material may have already contained gene combinations with high cognitive potential, making the substrate of natural selection more favorable for rapid cognitive expansion. This speculation does not replace evolutionary explanations but is superimposed upon them.
 
 ## XII. Human Mission Positioning
 
@@ -1238,9 +1238,9 @@ The ongoing Seabed 2030 project [25] will continue to expand global seabed mappi
 
 ### 13.7 Interstellar Object Observation
 
-- **Interstellar object spectral and orbital analysis** — Conducting spectral, orbital, and non-gravitational acceleration analysis of interstellar objects entering the solar system (e.g., 1I/'Oumuamua, 2I/Borisov), searching for non-natural signatures.
-- **Vera Rubin Observatory (LSST)** — Expected to detect dozens of interstellar objects per year beginning in 2025, dramatically expanding the sample size.
-- **Interstellar object intercept missions** — Rapid intercept mission concepts such as ESA Comet Interceptor could enable close-range observation or even sampling of interstellar objects.
+- **Interstellar object spectral and orbital analysis** — Conducting spectral, orbital, and non-gravitational acceleration analysis of interstellar objects entering the solar system (e.g., 1I/'Oumuamua [44], 2I/Borisov [49]), searching for non-natural signatures.
+- **Vera Rubin Observatory (LSST)** [45] — Expected to detect dozens of interstellar objects per year beginning in 2025, dramatically expanding the sample size.
+- **Interstellar object intercept missions** — Rapid intercept mission concepts such as ESA Comet Interceptor [50] could enable close-range observation or even sampling of interstellar objects.
 
 **Determination criterion**: If large samples of interstellar objects all exhibit spectral and orbital characteristics consistent with natural bodies, then the prior probability of the Von Neumann probe model (Section 4.7) should be adjusted downward. Conversely, if any interstellar object exhibits features unexplainable by natural processes (anomalous albedo, non-gravitational acceleration without cometary activity, anomalous shape, etc.), further investigation is warranted.
 
@@ -1251,7 +1251,7 @@ The ongoing Seabed 2030 project [25] will continue to expand global seabed mappi
 - **Venus surface radar penetration imaging** — Utilizing synthetic aperture radar (e.g., NASA VERITAS mission [32] X-band SAR [planned, facing budget uncertainty], ESA EnVision mission [33] VenSAR [entered construction phase, launch targeted for 2031]) to penetrate cloud cover and search for possible anomalous subsurface structures.
 - **Venus atmospheric entry probes** — Deploying buoyant probes capable of long-duration residence in the upper atmosphere for direct sampling and analysis of atmospheric composition and particulate structures.
 
-**Determination criterion**: If Venus atmospheric chemical analysis reveals no non-natural compounds and long-term upper atmosphere monitoring detects no artificial structural features, then the Venus atmospheric habitation model can be weakened. If Venus surface radar penetration finds no artificial structural traces beneath the global resurfacing layer, then the ancient Venus surface civilization model can be further weakened.
+**Determination criterion**: If Venus atmospheric chemical analysis reveals no non-natural compounds and long-term upper atmosphere monitoring detects no artificial structural features, then the Venus atmospheric habitation model can be weakened. If Venus surface radar penetration finds no artificial structural traces beneath the global resurfacing layer [52], then the ancient Venus surface civilization model can be further weakened.
 
 ---
 
@@ -1339,7 +1339,7 @@ The overall model progressively shifts from narrative-level to engineering- and 
 
 [26] Schmidt, G. A. & Frank, A. (2019). "The Silurian hypothesis: would it be possible to detect an industrial civilization in the geological record?" *International Journal of Astrobiology*, 18(2), 142–150. https://doi.org/10.1017/S1473550418000095 (Online first 2018, print 2019)
 
-[27] Deep-sea direct observation coverage data source: 2025 *Science Advances* study. (Note: Full bibliographic information pending — specific authors, volume, pages, and DOI to be confirmed.)
+[27] Bell, K. L. C. et al. (2025). "How little we've seen: A visual coverage estimate of the deep seafloor." *Science Advances*, 11(19). https://doi.org/10.1126/sciadv.adp8602
 
 [28] NASA GRACE-FO (Gravity Recovery and Climate Experiment Follow-On). https://gracefo.jpl.nasa.gov/
 
@@ -1376,3 +1376,21 @@ The overall model progressively shifts from narrative-level to engineering- and 
 [44] Meech, K. J. et al. (2017). "A brief visit from a red and extremely elongated interstellar asteroid." *Nature*, 552, 378–381. https://doi.org/10.1038/nature25020
 
 [45] Ivezić, Ž. et al. (2019). "LSST: From Science Drivers to Reference Design and Anticipated Data Products." *The Astrophysical Journal*, 873(2), 111. https://doi.org/10.3847/1538-4357/ab042c
+
+[46] McGuire, B. A. (2022). "2021 Census of Interstellar, Circumstellar, Extragalactic, Protoplanetary Disk, and Exoplanetary Molecules." *The Astrophysical Journal Supplement Series*, 259(2), 30. https://doi.org/10.3847/1538-4365/ac2a48
+
+[47] Williams, D. R. (2024). "Venus Fact Sheet." *NASA Goddard Space Flight Center.* https://nssdc.gsfc.nasa.gov/planetary/factsheet/venusfact.html
+
+[48] Ball, J. A. (1973). "The Zoo Hypothesis." *Icarus*, 19(3), 347–349. https://doi.org/10.1016/0019-1035(73)90111-5
+
+[49] Guzik, P. et al. (2020). "Initial characterization of interstellar comet 2I/Borisov." *Nature Astronomy*, 4, 53–57. https://doi.org/10.1038/s41550-019-0931-8
+
+[50] Snodgrass, C. & Jones, G. H. (2019). "The European Space Agency's Comet Interceptor lies in wait." *Nature Communications*, 10, 5418. https://doi.org/10.1038/s41467-019-13470-1
+
+[51] Rightmire, G. P. (2004). "Brain size and encephalization in early to Mid-Pleistocene Homo." *American Journal of Physical Anthropology*, 124(2), 109–123. https://doi.org/10.1002/ajpa.10346
+
+[52] Strom, R. G., Schaber, G. G. & Dawson, D. D. (1994). "The global resurfacing of Venus." *Journal of Geophysical Research: Planets*, 99(E5), 10899–10926. https://doi.org/10.1029/94JE00388
+
+[53] Melott, A. L. et al. (2004). "Did a gamma-ray burst initiate the late Ordovician mass extinction?" *International Journal of Astrobiology*, 3(1), 55–61. https://doi.org/10.1017/S1473550404001910
+
+[54] Wallner, A. et al. (2016). "Recent near-Earth supernovae probed by global deposition of interstellar radioactive 60Fe." *Nature*, 532, 69–72. https://doi.org/10.1038/nature17196
