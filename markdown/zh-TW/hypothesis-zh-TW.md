@@ -1385,7 +1385,7 @@ Seabed 2030 計畫 [25] 的推進將持續擴大全球海底測繪覆蓋率。**
 
 [48] Ball, J. A. (1973). "The Zoo Hypothesis." *Icarus*, 19(3), 347–349. https://doi.org/10.1016/0019-1035(73)90111-5
 
-[49] Guzik, P. et al. (2020). "Initial characterization of interstellar comet 2I/Borisov." *Nature Astronomy*, 4, 53–57. https://doi.org/10.1038/s41550-019-0931-8
+[49] Guzik, P. et al. (2019/2020). "Initial characterization of interstellar comet 2I/Borisov." *Nature Astronomy*, 4, 53–57. https://doi.org/10.1038/s41550-019-0931-8（線上首發 2019，紙本 2020）
 
 [50] Snodgrass, C. & Jones, G. H. (2019). "The European Space Agency's Comet Interceptor lies in wait." *Nature Communications*, 10, 5418. https://doi.org/10.1038/s41467-019-13470-1
 
