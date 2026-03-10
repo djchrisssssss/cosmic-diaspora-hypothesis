@@ -22,8 +22,8 @@
 A Structural Analysis Framework on Cosmic Life Diffusion,\\
 Civilization Evolution, and Extraterrestrial Phenomena}
 
-\author{[Author Name]}
-\affiliation{[Affiliation]}
+\author{Kris Lai}
+\affiliation{Scallop Labs}
 
 \date{\today}
 
@@ -52,7 +52,7 @@ This hypothesis adheres to the following constraints:
 
 \begin{itemize}
   \item \textbf{No violation of known physical laws}: All derivations are built upon reasonable extensions of the existing physics framework.
-  \item \textbf{Engineering feasibility orientation}: Technological assumptions must have precursor foundations in current scientific research (e.g., ITER~\cite{ITER}, IBM quantum processors~\cite{IBM_Quantum}, metamaterial research).
+  \item \textbf{Engineering feasibility orientation}: Technological assumptions must have precursor foundations in current scientific research (e.g., fusion energy research, quantum computing development, metamaterial research). Program-level references (ITER~\cite{ITER}, IBM quantum hardware~\cite{IBM_Quantum}, SpaceX~\cite{SpaceX_Mars}, NASA Artemis~\cite{NASA_Artemis}, Long Now Foundation~\cite{LongNow_Clock}) are cited as contextual indicators of engineering direction, not as evidential support for specific claims.
   \item \textbf{Incremental extrapolation principle}: Deriving possible evolutionary paths thousands to millions of years beyond current human technological levels.
 \end{itemize}
 
@@ -71,6 +71,8 @@ This hypothesis is based on the following statistical premises:
 This framework's statistical derivations require an additional epistemological caveat: the Anthropic Principle imposes non-trivial constraints on probabilistic reasoning. As observers, our very existence pre-selects an environment in which life has already emerged---this means we cannot directly infer ``life is common in the universe'' from the fact that ``life exists on Earth'' (Bostrom, 2002~\cite{Bostrom2002}).
 
 Specifically: even if life is extraordinarily rare in the universe ($f_l \to 0$), as long as at least one civilization emerges and produces observers, those observers will necessarily observe that their planet harbors life. This self-selection bias means that an $N=1$ observation cannot constrain the lower bound of $f_l$.
+
+Critically, Sandberg, Drexler \& Ord (2018)~\cite{Sandberg2018} demonstrated that when Drake Equation parameters are treated as realistic probability distributions rather than point estimates, the Fermi Paradox can be dissolved without invoking additional complex mechanisms---the probability of humanity being alone in the observable universe is non-negligible. This result directly constrains the necessity of frameworks that posit hidden civilizations: simpler explanations (we are rare or alone) must be given appropriate prior weight. This framework's conditional structure (``if civilizations exist, then\ldots'') is designed to remain valid regardless of how this prior resolves.
 
 This framework acknowledges this limitation and positions it as supplementary background for Sec.~\ref{sec:abiogenesis} (Abiogenesis Constraint). The framework's core derivations (Parts~II through~VIII) employ conditional structure (``if life/civilization already exists, then\ldots''), and therefore are not affected by anthropic bias.
 
@@ -97,6 +99,8 @@ This hypothesis is designed as a falsifiable framework:
 \end{itemize}
 
 This hypothesis does not claim ``aliens exist''---it provides an analytical tool for ``if they exist, what derivable structures should they exhibit.''
+
+\textbf{Evidence Standards:} This framework adopts the general principle articulated in the NASA/NfoLD community life-detection framework~\cite{Green2021}: claims of detection require progression through multiple evidence levels---from scenario generation and observation-path suggestion, through signal identification, non-biological source exclusion, to convergence of independent evidence lines. The sub-models in Parts~III--VIII currently occupy the earliest stages (scenario generation and observation-path suggestion); none have yet reached the signal-identification level. This self-assessment should guide interpretation of all claims herein.
 
 \textbf{Epistemological Layering of the Framework:} This hypothesis contains two levels with distinct epistemological statuses:
 
@@ -150,7 +154,7 @@ On cosmic timescales ($10^{9}$ year scale):
 Over 300 molecular species have been detected in the interstellar medium as of 2025~\cite{McGuire2022} (the vast majority being organic), including:
 
 \begin{itemize}
-  \item Amino acids and their precursors (e.g., glycine has been detected in the interstellar medium, Rivilla et al., 2025~\cite{Rivilla2025})
+  \item Amino acids and their precursors (e.g., glycine detected toward a solar-type protostar; see~\cite{Rivilla2025}, a preprint whose DOI resolves to first author Quan rather than Rivilla---citation metadata may change upon formal publication)
   \item Polycyclic aromatic hydrocarbons (PAHs)
   \item Alcohols, aldehydes, and nitrogen-containing organics
 \end{itemize}
@@ -209,7 +213,7 @@ Specifically:
 \begin{itemize}
   \item The existence of organic precursors (amino acids, nucleotides, etc.) is a necessary but not sufficient condition for life.
   \item To date, no laboratory experiment has successfully produced a complete self-replicating system spontaneously from an inorganic environment.
-  \item Earth is the only known data point for the origin of life ($N=1$), which means we cannot make meaningful statistical inferences about the abiogenesis probability ($f_l$ in the Drake Equation)---its value could range from ${\sim}1$ (near-certain) to $10^{-40}$ (extraordinarily rare).
+  \item Earth is the only known data point for the origin of life ($N=1$), which means we cannot make meaningful statistical inferences about the abiogenesis probability ($f_l$ in the Drake Equation)---its value could range from ${\sim}1$ (near-certain) to $10^{-40}$ (extraordinarily rare). A Bayesian analysis by Lingam et al.\ (2024)~\cite{Lingam2024} provides a quantitative framework for this uncertainty, demonstrating that the posterior distribution of abiogenesis probability per conducive site remains broad and does not yet favor either extreme.
   \item Panspermia (Sec.~\ref{sec:panspermia}) does not resolve this problem; it merely relocates the site of abiogenesis to another celestial body.
 \end{itemize}
 
@@ -750,6 +754,33 @@ Key characteristic of this model: No assumption of continuous biological entity 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \section{Part~IV --- Civilization Existence Models}\label{sec:part4}
 
+\subsection{Bayesian Prior Assessment of Sub-Models}\label{sec:bayesian-priors}
+
+Before detailing each existence model, the following table summarizes the prior plausibility, supporting evidence class, primary falsification pathway, and false-positive risk for each sub-model. Priors are qualitative assessments conditioned on current evidence and are subject to revision as new data become available.
+
+\begin{table*}[htbp]
+\caption{Bayesian prior assessment of civilization existence sub-models.}
+\label{tab:bayesian-priors}
+\begin{ruledtabular}
+\begin{tabular}{p{3.2cm}p{1.8cm}p{3.5cm}p{3.8cm}p{3.0cm}}
+Sub-Model & Prior Plausibility & Supporting Evidence & Primary Falsification Pathway & False-Positive Risk \\
+\colrule
+Military misjudgment / sensor artifacts & \textbf{High} & Documented sensor failure modes; classified aircraft programs & Exhaustive declassification + sensor calibration studies & Low---well-understood mechanisms \\
+Extra-solar observers & \textbf{Low--Moderate} & Exoplanet statistics; Drake-type estimates with realistic uncertainty distributions~\cite{Sandberg2018} & Comprehensive all-sky technosignature survey yielding null result~\cite{Sheikh2025} & Moderate---anthropomorphic projection of observation intent \\
+Ancient Mars habitable environment & \textbf{Moderate} & Noachian-era liquid water evidence; atmospheric loss models & Mars sample return showing no biosignatures across multiple sites & Low---habitability $\neq$ biosphere, clearly bounded claim \\
+Ancient Mars civilization node & \textbf{Very Low} & None direct; inferred from habitability window & Comprehensive subsurface radar mapping (SHARAD/MARSIS) + sample return & High---large inferential gap from habitability to technosphere \\
+Ancient Venus habitable environment & \textbf{Low--Moderate} & GCM models~\cite{Way2016,Way2020}; but constrained by dry interior evidence~\cite{Constantinou2024} & Venus atmospheric entry probe + surface radar (VERITAS/EnVision) & Moderate---model-dependent; recent constraints reduce prior \\
+Ancient Venus civilization / aerial biosphere & \textbf{Very Low} & Speculative; phosphine claim unconfirmed~\cite{Snellen2020,Cordiner2022}; metabolic models challenged~\cite{Bains2021} & In-situ atmospheric chemistry analysis; cloud-deck sampling & High---multiple unfavorable constraints since 2020 \\
+Ancient Earth underground civilization & \textbf{Very Low} & Silurian hypothesis framework~\cite{Schmidt2019}; no direct evidence & Global subsurface imaging + deep-sea floor survey & Moderate---geological record destruction limits testability \\
+Non-biological intelligence probes & \textbf{Low} & Physical feasibility of self-replicating probes~\cite{Freitas1980} & Interstellar object spectral/compositional analysis & Moderate---natural object misidentification \\
+Directed migration (Mars$\to$Venus$\to$Earth relay) & \textbf{Very Low} & Temporal ordering of habitability windows; panspermia feasibility & Multi-body biosignature comparison; genetic analysis of any extraterrestrial biology found & High---chain of low-prior assumptions multiplied together \\
+Distributed non-material civilization & \textbf{Not assessable} & None; unfalsifiable by design & No empirical pathway exists & N/A---outside scope of falsifiable science \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\textbf{Reading note:} ``Very Low'' prior does not mean ``impossible''---it means the claim requires substantially more evidence than currently available before it can compete with simpler explanations.
+
 \subsection{Extra-Solar System Observer Model}\label{sec:observer-model}
 
 \subsubsection{Long-Range Observation Civilizations}\label{sec:long-range}
@@ -901,6 +932,18 @@ Early solar luminosity & 70--85\% of present & Relatively stable constraint, low
 \end{table}
 
 Some plausible parameter combinations could shorten the habitable window to a few hundred million years or less---in such a scenario, the statistical probability of complex life or civilization forming on Venus would be substantially reduced. This framework's Venus sub-model should be interpreted against this backdrop of uncertainty.
+
+\textbf{Post-2024 Observational Constraints:} Since the original Venus habitability models were published, several lines of evidence have tightened the constraints on Venus's habitable past:
+
+\begin{itemize}
+  \item \textbf{Dry interior constraint}---Modeling of Venus's interior evolution indicates that Venus's mantle is significantly drier than Earth's, consistent with a long-term arid surface history. This reduces the prior probability that Venus sustained liquid water oceans for billions of years~\cite{Constantinou2024}.
+  \item \textbf{Phosphine re-analysis}---Independent re-analysis of the original ALMA data found no statistically significant phosphine detection~\cite{Snellen2020}. SOFIA observations provided a strict upper limit well below the originally claimed abundance~\cite{Cordiner2022}.
+  \item \textbf{Metabolic model challenges}---Proposed biochemical metabolic pathways for a Venus cloud-layer biosphere have been shown to be inconsistent with observed atmospheric chemistry---the predicted chemical signatures do not match what is actually measured~\cite{Bains2021}.
+  \item \textbf{Amino acid stability}---Concentrated sulfuric acid in Venus's cloud layer rapidly destroys amino acid backbones, posing a fundamental challenge to Earth-like biochemistry in the Venus atmosphere~\cite{Petkowski2024}.
+  \item \textbf{Dipeptide stability}---Follow-up studies on peptide bond stability under Venus cloud conditions further constrain the viability of complex organic chemistry in this environment~\cite{Seager2024dipeptide}.
+\end{itemize}
+
+\textbf{Balanced assessment:} The Venus habitability hypothesis now occupies a more constrained position than in the pre-2024 literature. The early habitability window remains physically possible under specific parameter combinations, but the overall prior has been reduced. This framework retains Venus as a bounded, low-prior branch rather than a co-equal pathway alongside Mars.
 
 As with the Mars chapter (Sec.~\ref{sec:mars-habit}), early Venus life may have originated through two pathways: independent local abiogenesis, or natural transfer from other bodies via the Panspermia mechanism (see Sec.~\ref{sec:panspermia}). Notably, because Venus's orbital distance to Earth is shorter (approximately \SI{0.28}{AU} at closest approach), the efficiency of interplanetary meteoritic transfer may be higher than that of the Mars--Earth pathway, giving panspermia a higher prior probability in the Venus scenario.
 
@@ -1213,71 +1256,6 @@ This framework makes base derivation dependent not only on geographic conditions
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PART VI
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\section{Part~VI --- Cognitive Deconstruction of the ``Alien'' Concept}\label{sec:part6}
-
-\subsection{``Alien'' as a Semantic Compression Concept}\label{sec:semantic-alien}
-
-\subsubsection{Limitations of the Single-Species Assumption}\label{sec:single-species}
-
-The popular cultural concept of ``aliens'' contains an implicit fundamental assumption: \textbf{A single extraterrestrial species is interacting with humanity.}
-
-This assumption is extremely unlikely to hold, for the following reasons:
-
-\begin{itemize}
-  \item Conditions for life formation arise independently across different times and spaces in the universe.
-  \item Different civilizations may have radically different evolutionary paths, technological levels, and biological morphologies.
-  \item So-called ``alien events'' may have entirely different sources.
-\end{itemize}
-
-\subsubsection{Multi-Source Model Ensemble}\label{sec:multi-source}
-
-``Aliens'' may be the projected ensemble of the following entities:
-
-\begin{enumerate}
-  \item \textbf{Interplanetary civilization observers}---Organic life from outside the solar system.
-  \item \textbf{Ancient Earth civilization remnants}---Descendants of Earth's intelligent life predating human civilization.
-  \item \textbf{Inorganic intelligence systems}---Self-replicating probes or AI-driven observation networks.
-  \item \textbf{Biological-mechanical hybrids}---Deep fusion of organic life and mechanical systems.
-  \item \textbf{Martian migration descendants}---Continuation of ancient Martian civilization migrated to Earth.
-  \item \textbf{Venus migration descendants}---Continuation of ancient Venus civilization migrated to Earth following the runaway greenhouse effect.
-\end{enumerate}
-
-In the human context, these radically different entities are compressed into the single term ``alien.''
-
-\subsubsection{Civilization Morphological Diversity}\label{sec:morphological}
-
-Different origin pathways will produce radically different civilization morphologies:
-
-\begin{table*}[htbp]
-\caption{Civilization morphological diversity by origin pathway.}
-\label{tab:morphological}
-\begin{ruledtabular}
-\begin{tabular}{lllll}
-Origin & Possible Form & Technological Signature & Interaction Mode \\
-\colrule
-Extra-solar & Entirely heterogeneous biology & Interstellar travel capability & Extremely low interaction frequency \\
-Ancient Earth civilization & Possibly biologically related to humans & Underground engineering technology & Possible intermittent contact \\
-AI probes & Non-biological & Self-replication capability & Passive observation \\
-Martian migration & Biology adapted to Martian environment & Interplanetary technology & May have integrated into Earth's environment \\
-Venus migration & Possibly adapted to atmospheric habitation & Buoyant engineering / interplanetary technology & May have integrated into Earth's environment \\
-\end{tabular}
-\end{ruledtabular}
-\end{table*}
-
-\subsubsection{Human Cognitive Projection}\label{sec:cognitive-projection}
-
-Humans tend to project unknown phenomena into single narratives---this is a natural result of cognitive simplification:
-
-\begin{itemize}
-  \item \textbf{Anthropomorphization tendency}---Imagining extraterrestrial intelligence in human-like forms.
-  \item \textbf{Single-source assumption}---Attributing all unidentified phenomena to the same origin.
-  \item \textbf{Intent projection}---Assuming extraterrestrial behavior has humanly comprehensible purposes.
-  \item \textbf{Cultural framework filtering}---Different cultures interpret the same phenomenon in entirely different ways.
-\end{itemize}
-
-Recognizing that ``alien'' is a semantic compression concept, not a definitive species description, is a necessary prerequisite for rational analysis.
-
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % PART VII
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
@@ -1581,6 +1559,31 @@ The mission is clear. The window of opportunity is finite.
 
 The value of this hypothesis lies in its falsifiability. The following are specific observation and experimental pathways:
 
+\subsubsection{Instrument Resolution \& Detection Thresholds}\label{sec:instrument-thresholds}
+
+Before evaluating specific observation pathways, it is essential to establish the current detection floor for each method. The table below maps each sub-model's minimum detectable signature against the resolution limits of existing instruments. This determines whether a negative result constitutes a meaningful constraint or merely reflects insufficient instrument sensitivity.
+
+\begin{table*}[htbp]
+\caption{Instrument resolution and detection thresholds for each observation pathway.}
+\label{tab:instrument-thresholds}
+\begin{ruledtabular}
+\begin{tabular}{p{2.8cm}p{2.5cm}p{2.8cm}p{3.5cm}p{3.2cm}}
+Detection Method & Target Sub-Model & Minimum Signature Required & Current Instrument Capability & Constraint Strength of Null Result \\
+\colrule
+Satellite gravimetry (GRACE-FO~\cite{NASA_GRACEFO}) & Underground base (mass anomaly) & ${\sim}10^{10}$~kg localized mass concentration & Effective spatial resolution ${\sim}$300~km; sensitive to large-scale mass redistribution & \textbf{Weak} for structures $<$100~km; strong for continent-scale anomalies \\
+Muon tomography~\cite{Alvarez1970} & Underground cavity & Density contrast $>$5\% over ${\sim}$100~m scale & Penetration depth ${\sim}$1~km in rock; ${\sim}$10~m resolution at shallow depths & \textbf{Strong} for shallow ($<$1~km), localized targets; negligible for deep or distributed structures \\
+Seabed multibeam sonar (Seabed 2030~\cite{Seabed2030}) & Undersea base & Geometric anomaly $>$100~m on seafloor & 27.3\% of ocean floor mapped to modern standards (as of 2025); resolution ${\sim}$100~m at abyssal depths & \textbf{Weak} globally (73\% unmapped); strong in surveyed regions \\
+Deep-sea visual observation~\cite{Bell2025} & Undersea artificial structures & Visual-scale artificial features & $<$0.001\% of deep seafloor directly observed & \textbf{Very weak}---near-zero global coverage \\
+Mars subsurface radar (SHARAD~\cite{NASA_SHARAD} / MARSIS~\cite{ESA_MARSIS}) & Mars subsurface structures & Dielectric contrast at $>$10~m scale & SHARAD: ${\sim}$15~m vertical resolution, ${\sim}$1~km penetration; MARSIS: ${\sim}$150~m vertical, ${\sim}$5~km penetration & \textbf{Moderate} for large cavities; weak for small or deep structures \\
+Venus SAR (VERITAS~\cite{NASA_VERITAS} / EnVision~\cite{ESA_EnVision}) & Venus subsurface anomalies & Surface/near-surface geometric anomaly & VERITAS: ${\sim}$30~m resolution (status uncertain); EnVision VenSAR: ${\sim}$30~m (launch ${\sim}$2031) & \textbf{Pending}---instruments not yet operational \\
+Technosignature survey~\cite{Sheikh2025} & Extra-solar observers, directed EM & Earth-level radio/optical leakage at interstellar distances & Detectable across 13 orders of magnitude depending on mode; strongest radio modes detectable to ${\sim}$100~pc & \textbf{Moderate} for nearby sources; weak for distant or deliberately quiet civilizations \\
+Atmospheric chemistry probes & Venus aerial biosphere & Non-equilibrium chemical species (ppb-level) & No long-duration Venus atmospheric probe currently operational & \textbf{Pending}---no in-situ data available \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\textbf{Key implication:} The claim ``if we find nothing, the sub-model is weakened'' must be qualified by instrument capability. For sub-models where current instruments lack the resolution to detect the predicted signature, a null result is uninformative rather than constraining. This table should be updated as new missions become operational.
+
 \subsubsection{Subsurface Imaging}\label{sec:subsurface-imaging}
 
 \begin{itemize}
@@ -1619,6 +1622,8 @@ The ongoing Seabed 2030 project~\cite{Seabed2030} will continue to expand global
   \item \textbf{Quantum field fluctuation monitoring}---Searching for anomalous fluctuations exceeding natural quantum noise.
 \end{itemize}
 
+\textbf{Detectability context:} Sheikh et al.\ (2025)~\cite{Sheikh2025} demonstrated that Earth-level technosignatures span 13 orders of magnitude in detectability depending on the emission mode, with certain radio-frequency modes being far more conspicuous than non-radio signatures. This implies that the hypothesis of universal deliberate concealment (directed encrypted communication resolving the Fermi Paradox) requires a more rigorous selection model than intuition alone: even a single civilization choosing broadcast mode would be potentially detectable across significant interstellar distances.
+
 \subsubsection{Anomalous Material Sample Search}\label{sec:anomalous-materials}
 
 \begin{itemize}
@@ -1640,10 +1645,12 @@ The ongoing Seabed 2030 project~\cite{Seabed2030} will continue to expand global
 \subsubsection{Interstellar Object Observation}\label{sec:interstellar-objects}
 
 \begin{itemize}
-  \item \textbf{Interstellar object spectral and orbital analysis}---Conducting spectral, orbital, and non-gravitational acceleration analysis of interstellar objects entering the solar system (e.g., 1I/'Oumuamua~\cite{Meech2017}, 2I/Borisov~\cite{Guzik2020}), searching for non-natural signatures.
-  \item \textbf{Vera Rubin Observatory (LSST)}~\cite{Ivezic2019}---Expected to detect dozens of interstellar objects per year beginning in 2025, dramatically expanding the sample size.
+  \item \textbf{Interstellar object spectral and orbital analysis}---Conducting spectral, orbital, and non-gravitational acceleration analysis of interstellar objects entering the solar system (e.g., 1I/'Oumuamua~\cite{Meech2017}, 2I/Borisov~\cite{Guzik2020}, 3I/ATLAS~\cite{NASA_3IATLAS}), searching for non-natural signatures.
+  \item \textbf{Vera Rubin Observatory}~\cite{Ivezic2019}---The Rubin Observatory has begun scientific operations, issuing its first batch of scientific alerts on 2026-02-25~\cite{RubinObs2026}. Its Legacy Survey of Space and Time (LSST) is expected to detect dozens of interstellar objects per year, dramatically expanding the sample size and enabling statistical characterization of the interstellar object population.
   \item \textbf{Interstellar object intercept missions}---Rapid intercept mission concepts such as ESA Comet Interceptor~\cite{Snodgrass2019} could enable close-range observation or even sampling of interstellar objects.
 \end{itemize}
+
+The growing sample of interstellar objects---from a single anomalous case (1I/'Oumuamua) to a population of three with distinct characteristics---strengthens the empirical foundation for distinguishing natural panspermia vehicles from potential artificial probes. Population-level statistical analysis becomes feasible as the sample grows.
 
 \textbf{Determination criterion}: If large samples of interstellar objects all exhibit spectral and orbital characteristics consistent with natural bodies, then the prior probability of the Von Neumann probe model (Sec.~\ref{sec:non-bio}) should be adjusted downward. Conversely, if any interstellar object exhibits features unexplainable by natural processes (anomalous albedo, non-gravitational acceleration without cometary activity, anomalous shape, etc.), further investigation is warranted.
 
@@ -1691,6 +1698,76 @@ These derivations are built upon extensions of known physical theories, not viol
 The overall model progressively shifts from narrative-level to engineering- and physics-derivable structures.
 
 \textit{This hypothesis framework is designed to be progressively filled with rigorous derivations, evidence references, and falsifiable predictions.}
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDIX
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\appendix
+
+\section{Cognitive Deconstruction of the ``Alien'' Concept}\label{sec:appendix-alien}
+
+\textit{Note: This appendix presents a cultural-analogy framework for the semantic decomposition of the term ``alien.'' It is positioned as supplementary context rather than part of the core evidential chain. Part~III (Sec.~\ref{sec:part3}) provides the structural analysis; this appendix explores the cognitive and linguistic dimensions.}
+
+\subsection{Limitations of the Single-Species Assumption}\label{sec:single-species}
+
+The popular cultural concept of ``aliens'' contains an implicit fundamental assumption: \textbf{A single extraterrestrial species is interacting with humanity.}
+
+This assumption is extremely unlikely to hold, for the following reasons:
+
+\begin{itemize}
+  \item Conditions for life formation arise independently across different times and spaces in the universe.
+  \item Different civilizations may have radically different evolutionary paths, technological levels, and biological morphologies.
+  \item So-called ``alien events'' may have entirely different sources.
+\end{itemize}
+
+\subsection{Multi-Source Model Ensemble}\label{sec:multi-source}
+
+``Aliens'' may be the projected ensemble of the following entities:
+
+\begin{enumerate}
+  \item \textbf{Interplanetary civilization observers}---Organic life from outside the solar system.
+  \item \textbf{Ancient Earth civilization remnants}---Descendants of Earth's intelligent life predating human civilization.
+  \item \textbf{Inorganic intelligence systems}---Self-replicating probes or AI-driven observation networks.
+  \item \textbf{Biological-mechanical hybrids}---Deep fusion of organic life and mechanical systems.
+  \item \textbf{Martian migration descendants}---Continuation of ancient Martian civilization migrated to Earth.
+  \item \textbf{Venus migration descendants}---Continuation of ancient Venus civilization migrated to Earth following the runaway greenhouse effect.
+\end{enumerate}
+
+In the human context, these radically different entities are compressed into the single term ``alien.''
+
+\subsection{Civilization Morphological Diversity}\label{sec:morphological}
+
+Different origin pathways will produce radically different civilization morphologies:
+
+\begin{table*}[htbp]
+\caption{Civilization morphological diversity by origin pathway.}
+\label{tab:morphological}
+\begin{ruledtabular}
+\begin{tabular}{lllll}
+Origin & Possible Form & Technological Signature & Interaction Mode \\
+\colrule
+Extra-solar & Entirely heterogeneous biology & Interstellar travel capability & Extremely low interaction frequency \\
+Ancient Earth civilization & Possibly biologically related to humans & Underground engineering technology & Possible intermittent contact \\
+AI probes & Non-biological & Self-replication capability & Passive observation \\
+Martian migration & Biology adapted to Martian environment & Interplanetary technology & May have integrated into Earth's environment \\
+Venus migration & Possibly adapted to atmospheric habitation & Buoyant engineering / interplanetary technology & May have integrated into Earth's environment \\
+\end{tabular}
+\end{ruledtabular}
+\end{table*}
+
+\subsection{Human Cognitive Projection}\label{sec:cognitive-projection}
+
+Humans tend to project unknown phenomena into single narratives---this is a natural result of cognitive simplification:
+
+\begin{itemize}
+  \item \textbf{Anthropomorphization tendency}---Imagining extraterrestrial intelligence in human-like forms.
+  \item \textbf{Single-source assumption}---Attributing all unidentified phenomena to the same origin.
+  \item \textbf{Intent projection}---Assuming extraterrestrial behavior has humanly comprehensible purposes.
+  \item \textbf{Cultural framework filtering}---Different cultures interpret the same phenomenon in entirely different ways.
+\end{itemize}
+
+Recognizing that ``alien'' is a semantic compression concept, not a definitive species description, is a necessary prerequisite for rational analysis.
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

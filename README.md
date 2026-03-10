@@ -34,7 +34,8 @@ All factual claims and references have been independently verified using computa
 | Physics & engineering claims | 13 | Peer-reviewed literature |
 | DOI references | 37/37 | CrossRef REST API |
 | URL-only references | 17 | Institutional source catalog |
-| **Total references** | **54** | |
+| New references (this revision) | 12 | [55]–[66]: Fermi dissolution, abiogenesis Bayesian, NfoLD framework, technosignature detectability, Venus constraints, 3I/ATLAS, Rubin Observatory |
+| **Total references** | **66** | |
 
 > Full methodology, per-claim tables, and complete DOI audit results are documented in the [Verification Report](./markdown/en/VERIFICATION-REPORT.md).
 
@@ -46,11 +47,11 @@ All factual claims and references have been independently verified using computa
 - **Part I — Foundations of Cosmic Life Diffusion** — Stellar formation, habitable zones, extremophiles, lithopanspermia, abiogenesis probability constraint (§1.6)
 - **Part II — Civilization Evolution & Technology Thresholds** — Energy hierarchy, fusion fuel cycle constraints, material breakthroughs, material system integration limits (§3.3.4), compact fusion, metamaterials
 - **Part III — Structural Classification of ET Events** — 7-source classification model for contemporary extraterrestrial events, SETI directed communication limitations
-- **Part IV — Civilization Existence Models** — Extra-solar observers, ancient Martian civilization, ancient Earth civilization, panspermia vs directed migration distinction criteria
+- **Part IV — Civilization Existence Models** — Bayesian prior assessment table, extra-solar observers, ancient Martian civilization, ancient Venus civilization (with balanced 2024–2026 literature constraints), ancient Earth civilization, panspermia vs directed migration distinction criteria
 - **Part V — Base Engineering & Stealth Matrix** — Site selection, energy self-sufficiency, EM/thermal suppression, Venus atmospheric energy budget & parameter sensitivity analysis
-- **Part VI — Cognitive Deconstruction** — "Alien" as semantic compression, multi-source model ensemble, competing hypotheses for cross-cultural myths
 - **Part VII — Cross-Galactic Mission Architecture & Human Positioning** — Deployment logic, civilization reset cycles, memory compression, human mission positioning
-- **Part VIII — Verifiable Observation Pathways** — Subsurface imaging, deep-sea scanning, gravitational anomaly monitoring, interstellar object spectral analysis (§13.7)
+- **Part VIII — Verifiable Observation Pathways** — Instrument-threshold detection table (§13.0), subsurface imaging, deep-sea scanning, gravitational anomaly monitoring, interstellar object spectral analysis including 3I/ATLAS (§13.7)
+- **Appendix A — Cognitive Deconstruction** — "Alien" as semantic compression, multi-source model ensemble (relocated from former Part VI)
 
 ---
 
