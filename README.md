@@ -4,6 +4,9 @@
 
 **宇宙播遷假說**
 
+<!-- TODO: Replace with actual Zenodo DOI after upload -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+
 A structured hypothesis framework exploring the statistical foundations of cosmic life, the energy and material thresholds of civilization evolution, and a rigorous multi-source classification model for extraterrestrial phenomena — grounded in physics, engineering feasibility, and falsifiable reasoning.
 
 > This is a living document. Contributions, critiques, and falsification attempts are welcome.
@@ -12,11 +15,21 @@ A structured hypothesis framework exploring the statistical foundations of cosmi
 
 ---
 
+## Author
+
+**Kris Lai**
+- Email: kriss@scallop.io
+- ORCID: [0009-0000-2223-4826](https://orcid.org/0009-0000-2223-4826)
+- Affiliation: [Scallop Labs](https://www.scallop.io/)
+
+---
+
 ## Documents
 
 | Document | Language | Description |
 |----------|----------|-------------|
-| [`hypothesis-en.md`](./markdown/en/hypothesis-en.md) | English | Full hypothesis framework in English |
+| [`cosmic_diaspora_hypothesis.pdf`](./cosmic_diaspora_hypothesis.pdf) | English | Full hypothesis (PDF, LaTeX compiled) |
+| [`hypothesis-en.md`](./markdown/en/hypothesis-en.md) | English | Full hypothesis framework in Markdown |
 | [`hypothesis-zh-TW.md`](./markdown/zh-TW/hypothesis-zh-TW.md) | 繁體中文 | Full hypothesis framework in Traditional Chinese |
 | [`VERIFICATION-REPORT.md`](./markdown/en/VERIFICATION-REPORT.md) | English | Scientific verification report |
 | [`VERIFICATION-REPORT-zh-TW.md`](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md) | 繁體中文 | Scientific verification report (Chinese) |
@@ -71,4 +84,6 @@ This hypothesis was co-created with the assistance of AI models and tools:
 
 ## License
 
-This work is shared for open intellectual exploration. All rights reserved by the author.
+This work is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
+
+You are free to share and adapt this work, provided appropriate credit is given.

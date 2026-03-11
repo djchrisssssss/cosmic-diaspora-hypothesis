@@ -4,6 +4,9 @@
 
 **Cosmic Diaspora Hypothesis**
 
+<!-- TODO: Zenodo DOI 上傳後替換 -->
+<!-- [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.XXXXXXX.svg)](https://doi.org/10.5281/zenodo.XXXXXXX) -->
+
 一個結構化的假說框架，探討宇宙生命的統計基礎、文明演化的能量與材料門檻，以及外星現象的多來源分類模型——以物理學、工程可行性與可證偽推理為基礎。
 
 > 這是一份持續更新的文件。歡迎貢獻、批判與證偽嘗試。
@@ -12,11 +15,21 @@
 
 ---
 
+## 作者
+
+**Kris Lai**
+- Email: kriss@scallop.io
+- ORCID: [0009-0000-2223-4826](https://orcid.org/0009-0000-2223-4826)
+- 機構: [Scallop Labs](https://www.scallop.io/)
+
+---
+
 ## 文件
 
 | 文件 | 語言 | 說明 |
 |------|------|------|
-| [`hypothesis-en.md`](./markdown/en/hypothesis-en.md) | English | 完整英文版假說架構 |
+| [`cosmic_diaspora_hypothesis.pdf`](./cosmic_diaspora_hypothesis.pdf) | English | 完整假說（PDF，LaTeX 編譯） |
+| [`hypothesis-en.md`](./markdown/en/hypothesis-en.md) | English | 完整英文版假說架構（Markdown） |
 | [`hypothesis-zh-TW.md`](./markdown/zh-TW/hypothesis-zh-TW.md) | 繁體中文 | 完整繁體中文版假說架構 |
 | [`VERIFICATION-REPORT.md`](./markdown/en/VERIFICATION-REPORT.md) | English | 科學驗證報告 |
 | [`VERIFICATION-REPORT-zh-TW.md`](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md) | 繁體中文 | 科學驗證報告（中文版） |
@@ -71,4 +84,6 @@
 
 ## 授權
 
-本作品以開放知識探索為目的分享。作者保留所有權利。
+本作品採用 [Creative Commons 姓名標示 4.0 國際授權條款 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.zh-hant) 授權。
+
+您可以自由分享與改作本作品，惟須適當標註出處。
