@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Build and Verification Guide
+    url: https://github.com/djchrisssssss/cosmic-diaspora-hypothesis/blob/main/BUILD.md
+    about: Start here for local setup, PDF builds, and machine-readable verification outputs.
+  - name: Contribution Guide
+    url: https://github.com/djchrisssssss/cosmic-diaspora-hypothesis/blob/main/CONTRIBUTING.md
+    about: Read the contribution workflow, evidence expectations, and PR checklist.

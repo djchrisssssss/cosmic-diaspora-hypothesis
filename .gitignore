@@ -27,6 +27,20 @@ markdown/zh-TW/polymarket.txt
 .vscode/
 .idea/
 
+# Python
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+
 # Environment
 .env
 .env.*
+
+# Local LaTeX build products
+latex/main.pdf
+/cosmic_diaspora_hypothesis.pdf
+
+# Local offline verification outputs
+verification/verification-offline.json
+verification/verification-offline.csv

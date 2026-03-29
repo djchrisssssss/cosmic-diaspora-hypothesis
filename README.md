@@ -1,4 +1,4 @@
-**[繁體中文版](./README-zh-TW.md)**
+**[正體中文版](./README-zh-TW.md)**
 
 # Cosmic Diaspora Hypothesis
 
@@ -27,11 +27,11 @@ A structured hypothesis framework exploring the statistical foundations of cosmi
 
 | Document | Language | Description |
 |----------|----------|-------------|
-| [`cosmic_diaspora_hypothesis.pdf`](./cosmic_diaspora_hypothesis.pdf) | English | Full hypothesis (PDF, LaTeX compiled) |
 | [`hypothesis-en.md`](./markdown/en/hypothesis-en.md) | English | Full hypothesis framework in Markdown |
-| [`hypothesis-zh-TW.md`](./markdown/zh-TW/hypothesis-zh-TW.md) | 繁體中文 | Full hypothesis framework in Traditional Chinese |
+| [`hypothesis-zh-TW.md`](./markdown/zh-TW/hypothesis-zh-TW.md) | 正體中文 | Full hypothesis framework in zh-TW / 正體中文 |
+| [`latex/main.tex`](./latex/main.tex) | English | LaTeX publication/export source used for Overleaf-based PDF generation |
 | [`VERIFICATION-REPORT.md`](./markdown/en/VERIFICATION-REPORT.md) | English | Scientific verification report |
-| [`VERIFICATION-REPORT-zh-TW.md`](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md) | 繁體中文 | Scientific verification report (Chinese) |
+| [`VERIFICATION-REPORT-zh-TW.md`](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md) | 正體中文 | Scientific verification report in zh-TW / 正體中文 |
 
 ---
 
@@ -81,8 +81,47 @@ This hypothesis was co-created with the assistance of AI models and tools:
 
 ---
 
+## Collaboration
+
+- [CONTRIBUTING.md](./CONTRIBUTING.md) — contribution workflow, evidence expectations, and PR checklist
+- [BUILD.md](./BUILD.md) — local setup, optional local PDF build, and reproducible verification commands
+- [`verification/verification.json`](./verification/verification.json) — latest machine-readable reference audit
+- [`verification/verification.csv`](./verification/verification.csv) — latest flat reference audit export
+
+## Document Sync Rules
+
+- `markdown/en/hypothesis-en.md` is the working source for English prose edits and AI-assisted content iteration.
+- `markdown/zh-TW/hypothesis-zh-TW.md` is the working source for zh-TW / 正體中文 prose edits and AI-assisted content iteration.
+- `latex/main.tex` is the publication/export source used when preparing the final PDF in Overleaf.
+- The compiled PDF is not tracked in this repository. Export it from Overleaf when needed.
+- When a structural or citation change affects more than one document, update the related Markdown and LaTeX files in the same PR or note the remaining sync gap explicitly.
+
+## PDF Workflow
+
+The primary PDF workflow for this project is:
+
+1. Draft and revise content in the Markdown and LaTeX sources in this repository.
+2. Copy or sync the LaTeX source to Overleaf.
+3. Use Claude Browser Extension inside Overleaf when collaborating on final PDF-facing edits.
+4. Export the PDF from Overleaf as needed.
+
+The repository keeps the editable sources, not the compiled PDF artifact.
+
+## Reproducible Verification
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 scripts/verify_references.py
+```
+
+This refreshes the machine-readable audit outputs from `latex/references.bib`.
+
+---
+
 ## License
 
 This work is licensed under the [Creative Commons Attribution 4.0 International License (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/).
 
-You are free to share and adapt this work, provided appropriate credit is given.
+You are free to share and adapt this work, provided appropriate credit is given. See the root [LICENSE](./LICENSE) file for the repository-level notice.

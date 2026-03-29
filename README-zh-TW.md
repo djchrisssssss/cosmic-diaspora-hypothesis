@@ -27,11 +27,11 @@
 
 | 文件 | 語言 | 說明 |
 |------|------|------|
-| [`cosmic_diaspora_hypothesis.pdf`](./cosmic_diaspora_hypothesis.pdf) | English | 完整假說（PDF，LaTeX 編譯） |
 | [`hypothesis-en.md`](./markdown/en/hypothesis-en.md) | English | 完整英文版假說架構（Markdown） |
-| [`hypothesis-zh-TW.md`](./markdown/zh-TW/hypothesis-zh-TW.md) | 繁體中文 | 完整繁體中文版假說架構 |
+| [`hypothesis-zh-TW.md`](./markdown/zh-TW/hypothesis-zh-TW.md) | 正體中文 | 完整正體中文版假說架構 |
+| [`latex/main.tex`](./latex/main.tex) | English | 供 Overleaf 產出 PDF 的 LaTeX 排版來源 |
 | [`VERIFICATION-REPORT.md`](./markdown/en/VERIFICATION-REPORT.md) | English | 科學驗證報告 |
-| [`VERIFICATION-REPORT-zh-TW.md`](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md) | 繁體中文 | 科學驗證報告（中文版） |
+| [`VERIFICATION-REPORT-zh-TW.md`](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md) | 正體中文 | 科學驗證報告（中文版） |
 
 ---
 
@@ -81,8 +81,47 @@
 
 ---
 
+## 協作說明
+
+- [CONTRIBUTING.md](./CONTRIBUTING.md) — 貢獻流程、證據標準與 PR 檢查清單
+- [BUILD.md](./BUILD.md) — 本機安裝、可選的本機 PDF 建置與可重跑驗證指令
+- [`verification/verification.json`](./verification/verification.json) — 最新機器可讀參考文獻稽核結果
+- [`verification/verification.csv`](./verification/verification.csv) — 最新平面化參考文獻稽核匯出
+
+## 三份文檔同步規則
+
+- `markdown/en/hypothesis-en.md` 是英文內容的工作主稿，適合日常修文與 AI 協作。
+- `markdown/zh-TW/hypothesis-zh-TW.md` 是正體中文內容的工作主稿，適合日常修文與 AI 協作。
+- `latex/main.tex` 是準備正式 PDF 時使用的排版來源，主要配合 Overleaf 工作流。
+- 已編譯 PDF 不納入版本控制；需要時由 Overleaf 匯出。
+- 若一次修改涉及結構、引用或跨語言內容，請盡量在同一個 PR 內同步相關 Markdown 與 LaTeX，或明確註記尚待同步的部分。
+
+## PDF 工作流
+
+這個專案的主要 PDF 流程如下：
+
+1. 先在 repo 內維護 Markdown 與 LaTeX 原始檔。
+2. 將 LaTeX 內容同步到 Overleaf。
+3. 在 Overleaf 中搭配 Claude Browser Extension 協作最後的 PDF 導向修訂。
+4. 需要 PDF 時再從 Overleaf 匯出。
+
+Repository 保留的是可編輯來源檔，不追蹤已編譯 PDF。
+
+## 可重跑驗證
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+python3 scripts/verify_references.py
+```
+
+這會從 `latex/references.bib` 重新產生機器可讀的驗證輸出。
+
+---
+
 ## 授權
 
 本作品採用 [Creative Commons 姓名標示 4.0 國際授權條款 (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.zh-hant) 授權。
 
-您可以自由分享與改作本作品，惟須適當標註出處。
+您可以自由分享與改作本作品，惟須適當標註出處。Repository 層級的授權聲明請見根目錄 [LICENSE](./LICENSE)。
