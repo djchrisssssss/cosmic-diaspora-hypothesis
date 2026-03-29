@@ -1,0 +1,47 @@
+name: Reference Audit
+
+on:
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install verification dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run offline reference audit
+        run: make verify-references-offline
+
+      - name: Run online reference audit
+        run: make verify-references
+
+      - name: Check committed verification outputs
+        run: |
+          git diff -- verification/verification.json verification/verification.csv
+          git diff --exit-code -- verification/verification.json verification/verification.csv
+
+      - name: Upload verification artifacts
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: reference-audit
+          path: |
+            verification/verification.json
+            verification/verification.csv
+            verification/verification-offline.json
+            verification/verification-offline.csv

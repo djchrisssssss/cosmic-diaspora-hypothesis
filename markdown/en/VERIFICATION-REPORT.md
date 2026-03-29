@@ -165,19 +165,19 @@ These references link to official institutional sources and do not require DOI v
 | Ref | Type | Authors / Source | Title | Verification | Status |
 |-----|------|-----------------|-------|-------------|--------|
 | [55] | arXiv preprint | Sandberg, Drexler, Ord | "Dissolving the Fermi Paradox" | arXiv:1806.02404. Widely cited (700+ citations). Establishes uncertainty-aware Drake framework. | ✅ Verified |
-| [56] | Peer-reviewed | Lingam, Balbi, Mahajan | "A Bayesian Analysis of the Probability of the Origin of Life Per Site Conducive to Abiogenesis" | *Astrobiology* 2024. DOI: 10.1089/ast.2023.0155. PubMed 39159441. | ✅ Verified |
+| [56] | Peer-reviewed | Lingam, Balbi, Mahajan | "A Bayesian Analysis of the Probability of the Origin of Life Per Site Conducive to Abiogenesis" | *Astrobiology* 2024. DOI: 10.1089/ast.2024.0037. PubMed 39159441. | ✅ Verified |
 | [57] | Peer-reviewed | Green et al. | "Call for a Framework for Reporting Evidence for Life Beyond Earth" | *Nature* 598, 575–579 (2021). DOI: 10.1038/s41586-021-03804-9. NASA/NfoLD community framework. | ✅ Verified |
 | [58] | arXiv preprint | Sheikh et al. | "Earth Detecting Earth: At what distance could Earth's constellation of technosignatures be detected with present-day technology?" | arXiv:2502.02614 (2025). Quantifies Earth-level technosignature detectability across 13 orders of magnitude. | ✅ Verified |
-| [59] | Peer-reviewed | Constantinou, Shorttle, Maynes | "Dry interior constraints on the habitability of Venus" | *Nature Astronomy* 2024. Venus interior modeling study. | ✅ Verified |
+| [59] | Peer-reviewed | Constantinou, Shorttle, Rimmer | "A dry Venusian interior constrained by atmospheric chemistry" | *Nature Astronomy* 9, 189–198 (2025). DOI: 10.1038/s41550-024-02414-5. Published online 2024-12-02. | ✅ Verified |
 | [60] | Peer-reviewed | Snellen et al. | "Re-analysis of the 267 GHz ALMA observations of Venus" | *A&A* 644, L2 (2020). DOI: 10.1051/0004-6361/202039717. No significant phosphine detection. | ✅ Verified |
-| [61] | Peer-reviewed | Cordiner et al. | "Phosphine in the Venusian Atmosphere: A Strict Upper Limit from SOFIA GREAT Observations" | *GRL* 49(13) (2022). DOI: 10.1029/2022GL098269. Strict upper limit below original claim. | ✅ Verified |
+| [61] | Peer-reviewed | Cordiner et al. | "Phosphine in the Venusian Atmosphere: A Strict Upper Limit from SOFIA GREAT Observations" | *GRL* 49(13) (2022). DOI: 10.1029/2022GL101055. Strict upper limit below original claim. | ✅ Verified |
 | [62] | Peer-reviewed | Bains et al. | "Phosphine on Venus Cannot Be Explained by Conventional Processes" | *Astrobiology* 21(10), 1277–1304 (2021). DOI: 10.1089/ast.2020.2352. Metabolic model analysis. | ✅ Verified |
 | [63] | Peer-reviewed | Petkowski et al. | "Stability of amino acid backbones in concentrated sulfuric acid" | *Astrobiology* 2024. DOI: 10.1089/ast.2023.0082. | ✅ Verified |
-| [64] | Follow-up study | Seager, Petkowski et al. | "Dipeptide stability in concentrated sulfuric acid" | 2024. Follow-up to [63] on peptide bond stability. | ⚠️ Cited as follow-up; formal publication metadata pending |
+| [64] | Peer-reviewed | Petkowski, Seager, Bains et al. | "General instability of dipeptides in concentrated sulfuric acid as relevant for the Venus cloud habitability" | *Scientific Reports* 14 (2024). DOI: 10.1038/s41598-024-67342-w. Follow-up to [63] on peptide bond stability. | ✅ Verified |
 | [65] | NASA source | NASA Science | "Comet 3I/ATLAS Facts and FAQs" | Official NASA page. Third confirmed interstellar object, discovered 2025-07-01. URL verified. | ✅ Verified |
 | [66] | Observatory source | Vera C. Rubin Observatory | "Rubin Observatory Issues First Scientific Alerts" | First LSST scientific alerts issued 2026-02-25. Institutional source. | ✅ Verified |
 
-**Result: 10/12 fully verified, 1 pending formal publication metadata ([64]), 1 institutional URL ([66]).**
+**Result: 12/12 machine-verifiable via DOI or institutional URL.**
 
 ---
 
@@ -236,7 +236,7 @@ These references link to official institutional sources and do not require DOI v
 | Physics & engineering claims | 11 | 0 | 11 |
 | Citation DOIs (original, full verification) | 37 | 0 | 37 |
 | URL-only references (original) | 17 (institutional) | 0 | 17 |
-| New references v3 [55]–[66] | 10 | 1 (pending formal pub [64]) + 1 (institutional URL [66]) | 12 |
+| New references v3 [55]–[66] | 12 | 0 | 12 |
 | Structural modifications (v2) | 14 | 0 | 14 |
 | Structural modifications (v3) | 10 | 0 | 10 |
 
@@ -247,7 +247,7 @@ These references link to official institutional sources and do not require DOI v
 | *D. radiodurans* 5,000 Gy — survival rate is ~37% at that dose | Low | Informational — paper's claim is defensible in context |
 | Venus habitable window depends on climate model assumptions | Low | Informational — paper correctly uses hedging language, includes parameter sensitivity table, and now includes balanced 2024–2026 constraining literature |
 | Toba-bottleneck causal link is debated | Low | Informational — paper correctly notes the controversy |
-| Ref [64] (Seager dipeptide stability) — formal publication metadata pending | Low | Cited as follow-up study; should be updated when formally published |
+| Ref [66] (Rubin Observatory first alerts) — institutional URL rather than journal DOI | Low | Machine-verifiable and acceptable for a current observatory source; replaceable later if a formal paper appears |
 
 ### Conclusion
 

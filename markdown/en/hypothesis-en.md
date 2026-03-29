@@ -1452,23 +1452,23 @@ Recognizing that "alien" is a semantic compression concept, not a definitive spe
 
 [55] Sandberg, A., Drexler, E. & Ord, T. (2018). "Dissolving the Fermi Paradox." arXiv:1806.02404. https://arxiv.org/abs/1806.02404
 
-[56] Lingam, M., Balbi, A. & Mahajan, S. M. (2024). "A Bayesian Analysis of the Probability of the Origin of Life Per Site Conducive to Abiogenesis." *Astrobiology*. https://doi.org/10.1089/ast.2023.0155
+[56] Lingam, M., Balbi, A. & Mahajan, S. M. (2024). "A Bayesian Analysis of the Probability of the Origin of Life Per Site Conducive to Abiogenesis." *Astrobiology*. https://doi.org/10.1089/ast.2024.0037
 
 [57] Green, J. L. et al. (2021). "Call for a Framework for Reporting Evidence for Life Beyond Earth." *Nature*, 598, 575–579. https://doi.org/10.1038/s41586-021-03804-9
 
 [58] Sheikh, S. Z. et al. (2025). "Earth Detecting Earth: At what distance could Earth's constellation of technosignatures be detected with present-day technology?" arXiv:2502.02614. https://arxiv.org/abs/2502.02614
 
-[59] Constantinou, T., Shorttle, O. & Maynes, E. (2024). "Dry interior constraints on the habitability of Venus." *Nature Astronomy*. (Modeling of Venus interior evolution indicating significantly drier mantle than Earth.)
+[59] Constantinou, T., Shorttle, O. & Rimmer, P. B. (2025). "A dry Venusian interior constrained by atmospheric chemistry." *Nature Astronomy*, 9, 189–198. https://doi.org/10.1038/s41550-024-02414-5
 
 [60] Snellen, I. A. G. et al. (2020). "Re-analysis of the 267 GHz ALMA observations of Venus: No statistically significant detection of phosphine." *Astronomy & Astrophysics*, 644, L2. https://doi.org/10.1051/0004-6361/202039717
 
-[61] Cordiner, M. A. et al. (2022). "Phosphine in the Venusian Atmosphere: A Strict Upper Limit from SOFIA GREAT Observations." *Geophysical Research Letters*, 49(13), e2022GL098269. https://doi.org/10.1029/2022GL098269
+[61] Cordiner, M. A. et al. (2022). "Phosphine in the Venusian Atmosphere: A Strict Upper Limit from SOFIA GREAT Observations." *Geophysical Research Letters*, 49(13), e2022GL098269. https://doi.org/10.1029/2022GL101055
 
 [62] Bains, W. et al. (2021). "Phosphine on Venus Cannot Be Explained by Conventional Processes." *Astrobiology*, 21(10), 1277–1304. https://doi.org/10.1089/ast.2020.2352
 
 [63] Petkowski, J. J. et al. (2024). "Stability of amino acid backbones in concentrated sulfuric acid: implications for Venus cloud habitability." *Astrobiology*. https://doi.org/10.1089/ast.2023.0082
 
-[64] Seager, S., Petkowski, J. J. et al. (2024). "Dipeptide stability in concentrated sulfuric acid: implications for Venus cloud biochemistry." (Follow-up study on peptide bond stability under Venus cloud conditions.)
+[64] Petkowski, J. J., Seager, M. D., Bains, W., Grimes Jr, J. H. & Seager, S. (2024). "General instability of dipeptides in concentrated sulfuric acid as relevant for the Venus cloud habitability." *Scientific Reports*, 14. https://doi.org/10.1038/s41598-024-67342-w
 
 [65] NASA Science. "Comet 3I/ATLAS Facts and FAQs." https://science.nasa.gov/solar-system/comets/3i-atlas/3i-atlas-facts-and-faqs/ (Third confirmed interstellar object, discovered 2025-07-01.)
 
