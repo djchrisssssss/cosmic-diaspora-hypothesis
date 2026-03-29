@@ -7,9 +7,9 @@ import argparse
 import csv
 import json
 import re
+import hashlib
 import time
 from collections import Counter
-from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
 from urllib.parse import quote
@@ -364,6 +364,7 @@ def main() -> int:
     reference_numbers = parse_reference_numbers(raw_bib)
     entries = load_entries(bib_path)
     declared_counts = extract_declared_counts(repo_root, len(entries))
+    bib_sha256 = hashlib.sha256(raw_bib.encode("utf-8")).hexdigest()
 
     session = requests.Session()
     session.headers.update({"User-Agent": USER_AGENT})
@@ -377,8 +378,8 @@ def main() -> int:
     )
 
     payload = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
         "bib_path": str(bib_path.relative_to(repo_root)),
+        "bib_sha256": bib_sha256,
         "json_output": str(json_output.relative_to(repo_root)),
         "csv_output": str(csv_output.relative_to(repo_root)),
         "summary": build_summary(results, declared_counts, args.offline),
