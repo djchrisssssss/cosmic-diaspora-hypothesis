@@ -37,7 +37,7 @@ A structured hypothesis framework exploring the statistical foundations of cosmi
 
 ## Verification Summary
 
-All factual claims and references have been independently verified using computational tools and public databases.
+All factual claims and references have been systematically self-verified using computational tools and public databases (author-run pipeline, not third-party review).
 
 | Category | Verified | Method |
 |----------|----------|--------|
@@ -61,8 +61,8 @@ All factual claims and references have been independently verified using computa
 - **Part III — Structural Classification of ET Events** — 7-source classification model for contemporary extraterrestrial events, SETI directed communication limitations
 - **Part IV — Civilization Existence Models** — Bayesian prior assessment table, extra-solar observers, ancient Martian civilization, ancient Venus civilization (with balanced 2024–2026 literature constraints), ancient Earth civilization, panspermia vs directed migration distinction criteria
 - **Part V — Base Engineering & Stealth Matrix** — Site selection, energy self-sufficiency, EM/thermal suppression, Venus atmospheric energy budget & parameter sensitivity analysis
-- **Part VII — Cross-Galactic Mission Architecture & Human Positioning** — Deployment logic, civilization reset cycles, memory compression, human mission positioning
-- **Part VIII — Verifiable Observation Pathways** — Instrument-threshold detection table (§13.0), subsurface imaging, deep-sea scanning, gravitational anomaly monitoring, interstellar object spectral analysis including 3I/ATLAS (§13.7)
+- **Part VI — Cross-Galactic Mission Architecture & Human Positioning** — Deployment logic, civilization reset cycles, memory compression, human mission positioning
+- **Part VII — Verifiable Observation Pathways** — Instrument-threshold detection table (§13.0), subsurface imaging, deep-sea scanning, gravitational anomaly monitoring, interstellar object spectral analysis including 3I/ATLAS (§13.7)
 - **Appendix A — Cognitive Deconstruction** — "Alien" as semantic compression, multi-source model ensemble (relocated from former Part VI)
 
 ---
