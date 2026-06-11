@@ -54,7 +54,7 @@ Biological claims were verified through literature review and PubMed database cr
 
 | # | Claim in Paper | Verification | Result |
 |---|---------------|-------------|--------|
-| 1 | >300 molecular species detected in ISM (as of 2025) | McGuire 2022 census: 241 (as of 2021). 2025 CDMS census: **334 molecules**. | ✅ Verified |
+| 1 | >240 molecular species detected in ISM (as of 2021) | McGuire 2022 census: 241 (as of 2021). 2025 CDMS census: **334 molecules**. | ✅ Verified |
 | 2 | Murchison meteorite: ~96 amino acid types | Glavin et al. 2021 confirms extensive diversity. Studies report 70–100+ types depending on classification. ~96 within accepted range. | ✅ Verified |
 | 3 | *Methanopyrus kandleri*: growth above 120°C | Takai et al. 2008 (PNAS): growth at **122°C** under high-pressure cultivation. | ✅ Verified |
 | 4 | *Deinococcus radiodurans*: survives >5,000 Gy | Survives ~5,000 Gy with ~37% survival rate. Some studies report up to 15,000 Gy with reduced viability. | ⚠️ Partially verified — context-dependent |
@@ -188,8 +188,8 @@ These references link to official institutional sources and do not require DOI v
 | ID | Modification | Assessment |
 |----|-------------|------------|
 | P0-1 | Brain over-engineering → cognitive capacity rewrite (§11.5) | ✅ Reframed as additive speculation atop mainstream evolutionary explanations. No intelligent-design-like framing remains. |
-| P0-2 | Epistemological layering (§0.5, §3.6) | ✅ Clearly distinguishes falsifiable sub-models from non-falsifiable meta-framework. Resolves §3.6 vs Part VIII contradiction. |
-| P0-3 | Abiogenesis constraint (§1.6) | ✅ Correctly identifies abiogenesis as weakest link. Preserves conditional structure of Parts II–VIII. |
+| P0-2 | Epistemological layering (§0.5, §3.6) | ✅ Clearly distinguishes falsifiable sub-models from non-falsifiable meta-framework. Resolves §3.6 vs Part VII contradiction. |
+| P0-3 | Abiogenesis constraint (§1.6) | ✅ Correctly identifies abiogenesis as weakest link. Preserves conditional structure of Parts II–VII. |
 | P1-1 | Competing hypotheses for myths (§11.3) | ✅ Lists four alternative explanations with equal prior weight. Prevents exclusive attribution to extraterrestrial contact. |
 | P1-2 | Venus energy budget table (§6b.4) | ✅ Quantifies buoyancy vs. reactor mass trade-off. Key constraint correctly identified as engineering challenge. |
 | P1-3 | Material integration constraints (§3.3.4) | ✅ Identifies superconductor-HEA lattice incompatibility, KK bandwidth limits, thermodynamic waste heat. Redefines "stealth" as detection-threshold-relative. |
@@ -251,7 +251,7 @@ These references link to official institutional sources and do not require DOI v
 
 ### Conclusion
 
-**The Cosmic Diaspora Hypothesis demonstrates high scientific rigor in its factual claims and citations.** All astrophysical and physics/engineering data points are accurate within accepted ranges. Biological claims are supported by peer-reviewed literature, with appropriate qualification where evidence is debated. All 66 references are traceable to real publications, institutional sources, or preprints with valid DOIs/URLs. The v3 revision significantly strengthens the framework through: a Bayesian prior assessment table, balanced Venus literature incorporating post-2024 constraints, an instrument-threshold detection table quantifying the informational value of null results, updated interstellar object data (3I/ATLAS), four skeleton-level reference sets (Sandberg 2018, Lingam 2024, NfoLD, Sheikh 2025), and the relocation of the cognitive deconstruction section to an appendix. The framework's falsifiability design, epistemological layering, and conditional derivation structure meet academic standards.
+**The Cosmic Diaspora Hypothesis maintains careful citation discipline and factual accuracy in its verifiable claims.** All astrophysical and physics/engineering data points are accurate within accepted ranges. Biological claims are supported by peer-reviewed literature, with appropriate qualification where evidence is debated. All 66 references are traceable to real publications, institutional sources, or preprints with valid DOIs/URLs. The v3 revision significantly strengthens the framework through: a Bayesian prior assessment table, balanced Venus literature incorporating post-2024 constraints, an instrument-threshold detection table quantifying the informational value of null results, updated interstellar object data (3I/ATLAS), four skeleton-level reference sets (Sandberg 2018, Lingam 2024, NfoLD, Sheikh 2025), and the relocation of the cognitive deconstruction section to an appendix. The framework's falsifiability design, epistemological layering, and conditional derivation structure are internally consistent. It remains, however, a speculative, non-peer-reviewed thought experiment: its conditional sub-models (Parts III–VII) are not yet empirically tested, and its conclusions should be read as structured possibilities rather than established results.
 
 ---
 

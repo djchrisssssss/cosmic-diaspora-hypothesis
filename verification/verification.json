@@ -1,6 +1,6 @@
 {
   "bib_path": "latex/references.bib",
-  "bib_sha256": "31acaf5e9e712391c0416c838fe20178b7a2c7131fcbcd2c9b873a0e06d784af",
+  "bib_sha256": "c437e8fc3058a6b367e6b67fbfc652a7ae5cad81ccaa146c48083cc349495bba",
   "json_output": "verification/verification.json",
   "csv_output": "verification/verification.csv",
   "summary": {
@@ -207,7 +207,7 @@
       "source_type": "url",
       "checked_url": "https://ui.adsabs.harvard.edu/abs/1964SvA.....8..217K/abstract",
       "verification_status": "verified",
-      "http_status": 200,
+      "http_status": 202,
       "resolved_url": "https://ui.adsabs.harvard.edu/abs/1964SvA.....8..217K/abstract",
       "resolved_identifier": "https://ui.adsabs.harvard.edu/abs/1964SvA.....8..217K/abstract",
       "resolved_title": null,
@@ -416,7 +416,7 @@
       "source_type": "url",
       "checked_url": "https://ui.adsabs.harvard.edu/abs/1980JBIS...33..251F/abstract",
       "verification_status": "verified",
-      "http_status": 200,
+      "http_status": 202,
       "resolved_url": "https://ui.adsabs.harvard.edu/abs/1980JBIS...33..251F/abstract",
       "resolved_identifier": "https://ui.adsabs.harvard.edu/abs/1980JBIS...33..251F/abstract",
       "resolved_title": null,

@@ -51,7 +51,7 @@ Specifically: even if life is extraordinarily rare in the universe (*f*<sub>l</s
 
 Critically, Sandberg, Drexler & Ord (2018) [55] demonstrated that when Drake Equation parameters are treated as realistic probability distributions rather than point estimates, the Fermi Paradox can be dissolved without invoking additional complex mechanisms — the probability of humanity being alone in the observable universe is non-negligible. This result directly constrains the necessity of frameworks that posit hidden civilizations: simpler explanations (we are rare or alone) must be given appropriate prior weight. This framework's conditional structure ("if civilizations exist, then…") is designed to remain valid regardless of how this prior resolves.
 
-This framework acknowledges this limitation and positions it as supplementary background for Section 1.6 (Abiogenesis Constraint). The framework's core derivations (Parts II through VIII) employ conditional structure ("if life/civilization already exists, then…"), and therefore are not affected by anthropic bias.
+This framework acknowledges this limitation and positions it as supplementary background for Section 1.6 (Abiogenesis Constraint). The framework's core derivations (Parts II through VII) employ conditional structure ("if life/civilization already exists, then…"), and therefore are not affected by anthropic bias.
 
 ### 0.4 Phenomenon–Structure Mapping
 
@@ -73,14 +73,14 @@ This hypothesis is designed as a falsifiable framework:
 
 This hypothesis does not claim "aliens exist" — it provides an analytical tool for "if they exist, what derivable structures should they exhibit."
 
-**Evidence Standards:** This framework adopts the general principle articulated in the NASA/NfoLD community life-detection framework [57]: claims of detection require progression through multiple evidence levels — from scenario generation and observation-path suggestion, through signal identification, non-biological source exclusion, to convergence of independent evidence lines. The sub-models in Parts III–VIII currently occupy the earliest stages (scenario generation and observation-path suggestion); none have yet reached the signal-identification level. This self-assessment should guide interpretation of all claims herein.
+**Evidence Standards:** This framework adopts the general principle articulated in the NASA/NfoLD community life-detection framework [57]: claims of detection require progression through multiple evidence levels — from scenario generation and observation-path suggestion, through signal identification, non-biological source exclusion, to convergence of independent evidence lines. The sub-models in Parts III–VII currently occupy the earliest stages (scenario generation and observation-path suggestion); none have yet reached the signal-identification level. This self-assessment should guide interpretation of all claims herein.
 
 **Epistemological Layering of the Framework:** This hypothesis contains two levels with distinct epistemological statuses:
 
-1. **Falsifiable sub-models** (underground bases, undersea bases, Venus atmospheric habitation, etc.) — each sub-model defines specific weakening or exclusion conditions (see Part VIII). The scientific value of these sub-models lies in their capacity to be negated by empirical evidence.
+1. **Falsifiable sub-models** (underground bases, undersea bases, Venus atmospheric habitation, etc.) — each sub-model defines specific weakening or exclusion conditions (see Part VII). The scientific value of these sub-models lies in their capacity to be negated by empirical evidence.
 2. **Non-falsifiable meta-framework** (distributed non-material civilization forms, see Section 3.6) — this form assumes civilizations leave no physical traces whatsoever, and therefore cannot in principle be excluded by current observational technology. This hypothesis explicitly acknowledges: this meta-framework exceeds the boundaries of falsifiable science; its status is that of a purely speculative thought experiment and should not be evaluated on the same terms as falsifiable sub-models.
 
-The observation pathways in Part VIII apply only to falsifiable sub-models. If all falsifiable sub-models are excluded by empirical evidence, the distributed non-material civilization hypothesis may still exist as a logical possibility, but its scientific status will be equivalent to a non-falsifiable metaphysical proposition.
+The observation pathways in Part VII apply only to falsifiable sub-models. If all falsifiable sub-models are excluded by empirical evidence, the distributed non-material civilization hypothesis may still exist as a logical possibility, but its scientific status will be equivalent to a non-falsifiable metaphysical proposition.
 
 ---
 
@@ -114,7 +114,7 @@ On cosmic timescales (10⁹ year scale):
 
 ### 1.3 Ubiquity of Organic Molecules in the Universe
 
-Over 300 molecular species have been detected in the interstellar medium as of 2025 [46] (the vast majority being organic), including:
+Over 240 molecular species have been detected in the interstellar medium as of 2021 [46] (the vast majority being organic), including:
 
 - Amino acids and their precursors (e.g., glycine detected toward a solar-type protostar; see [5], a preprint whose DOI resolves to first author Quan rather than Rivilla — citation metadata may change upon formal publication)
 - Polycyclic aromatic hydrocarbons (PAHs)
@@ -164,7 +164,7 @@ Specifically:
 - Earth is the only known data point for the origin of life (N=1), which means we cannot make meaningful statistical inferences about the abiogenesis probability (*f*<sub>l</sub> in the Drake Equation) — its value could range from ~1 (near-certain) to 10⁻⁴⁰ (extraordinarily rare). A Bayesian analysis by Lingam et al. (2024) [56] provides a quantitative framework for this uncertainty, demonstrating that the posterior distribution of abiogenesis probability per conducive site remains broad and does not yet favor either extreme.
 - Panspermia (Section 1.5) does not resolve this problem; it merely relocates the site of abiogenesis to another celestial body.
 
-**Impact of this constraint on the framework:** If the true value of *f*<sub>l</sub> is extremely low (e.g., <10⁻²⁰), then even with hundreds of billions of habitable planets in the universe, life may still be an extraordinarily rare event. In this scenario, Part I's conclusion of "high-probability statistical outcome" would not hold, but the conditional derivations in Parts II through VIII ("if life/civilization already exists, then…") remain valid, as they do not depend on the specific value of *f*<sub>l</sub>.
+**Impact of this constraint on the framework:** If the true value of *f*<sub>l</sub> is extremely low (e.g., <10⁻²⁰), then even with hundreds of billions of habitable planets in the universe, life may still be an extraordinarily rare event. In this scenario, Part I's conclusion of "high-probability statistical outcome" would not hold, but the conditional derivations in Parts II through VII ("if life/civilization already exists, then…") remain valid, as they do not depend on the specific value of *f*<sub>l</sub>.
 
 This framework explicitly acknowledges abiogenesis as an unresolved constraint and marks it as the single link with the highest uncertainty in the overall derivation chain.
 
@@ -725,7 +725,7 @@ Some plausible parameter combinations could shorten the habitable window to a fe
 
 **Balanced assessment**: The Venus habitability hypothesis now occupies a more constrained position than in the pre-2024 literature. The early habitability window remains physically possible under specific parameter combinations, but the overall prior has been reduced. This framework retains Venus as a bounded, low-prior branch rather than a co-equal pathway alongside Mars.
 
-As with the Mars chapter (6.1), early Venus life may have originated through two pathways: independent local abiogenesis, or natural transfer from other bodies via the Panspermia mechanism (see Section 1.5). Notably, because Venus's orbital distance to Earth is shorter (approximately 0.28 AU at closest approach), the efficiency of interplanetary meteoritic transfer may be higher than that of the Mars–Earth pathway, giving panspermia a higher prior probability in the Venus scenario.
+As with the Mars chapter (6.1), early Venus life may have originated through two pathways: independent local abiogenesis, or natural transfer from other bodies via the Panspermia mechanism (see Section 1.5). Notably, because Venus's orbital distance to Earth is shorter (approximately 0.25 AU at closest approach), the efficiency of interplanetary meteoritic transfer may be higher than that of the Mars–Earth pathway, giving panspermia a higher prior probability in the Venus scenario.
 
 ### 6b.2 Civilization Formation Time Window
 
@@ -803,7 +803,7 @@ If Venus civilization possessed interplanetary travel capabilities, Earth is the
 Potential interweaving of Venus and Mars migration theories:
 
 - If both Mars and Venus produced civilizations at different epochs, Earth may serve as a common receiving node for two independent migration paths.
-- This further strengthens the Part VI derivation of "multi-source model ensembles" — "alien" phenomena on Earth may contain remnants of different planetary origins.
+- This further strengthens the Appendix A derivation of "multi-source model ensembles" — "alien" phenomena on Earth may contain remnants of different planetary origins.
 
 ### 6b.6 Falsifiability & Observational Constraints
 
@@ -950,9 +950,9 @@ This framework makes base derivation dependent not only on geographic conditions
 
 ---
 
-# Part VII — Cross-Galactic Mission Architecture & Human Positioning
+# Part VI — Cross-Galactic Mission Architecture & Human Positioning
 
-## X. Cross-Galactic Civilization Deployment Logic
+## IX. Cross-Galactic Civilization Deployment Logic
 
 ### 10.1 Civilization as Higher-Order Information Structure
 
@@ -1029,7 +1029,7 @@ If biology or biological fossils are discovered on Mars, Venus, or other celesti
 
 This criteria table is only a preliminary framework; actual distinction may require cross-comparison of multiple criteria. No single criterion is sufficient to definitively distinguish between the two pathways.
 
-## XI. Planetary-Level Severance & Civilization Reset Cycles
+## X. Planetary-Level Severance & Civilization Reset Cycles
 
 ### 11.1 Cosmic-Scale Severance Mechanisms
 
@@ -1123,7 +1123,7 @@ Observations supporting this inference:
 - **Structural similarities in cross-cultural mythology**: Themes of "lost civilizations," "departing gods," and "great floods" appear independently across the globe.
 - **Rapid stepwise expansion of cognitive capacity**: Human brain volume approximately tripled over ~2 million years [51] (*Homo habilis* → *Homo sapiens*). Mainstream evolutionary explanations (social intelligence hypothesis, language co-evolution, cultural ratchet effect, etc.) already provide multi-factor models. However, within the cross-galactic deployment framework, an additional non-mutually-exclusive speculation is: if Earth received external biological seeding, the introduced genetic material may have already contained gene combinations with high cognitive potential, making the substrate of natural selection more favorable for rapid cognitive expansion. This speculation does not replace evolutionary explanations but is superimposed upon them.
 
-## XII. Human Mission Positioning
+## XI. Human Mission Positioning
 
 ### 12.1 Paradigm Shift from Contingency to Necessity
 
@@ -1166,9 +1166,9 @@ The mission is clear. The window of opportunity is finite.
 
 ---
 
-# Part VIII — Verifiable Observation Pathways
+# Part VII — Verifiable Observation Pathways
 
-## XIII. Empirical Strategy
+## XII. Empirical Strategy
 
 The value of this hypothesis lies in its falsifiability. The following are specific observation and experimental pathways.
 
@@ -1462,7 +1462,7 @@ Recognizing that "alien" is a semantic compression concept, not a definitive spe
 
 [60] Snellen, I. A. G. et al. (2020). "Re-analysis of the 267 GHz ALMA observations of Venus: No statistically significant detection of phosphine." *Astronomy & Astrophysics*, 644, L2. https://doi.org/10.1051/0004-6361/202039717
 
-[61] Cordiner, M. A. et al. (2022). "Phosphine in the Venusian Atmosphere: A Strict Upper Limit from SOFIA GREAT Observations." *Geophysical Research Letters*, 49(13), e2022GL098269. https://doi.org/10.1029/2022GL101055
+[61] Cordiner, M. A. et al. (2022). "Phosphine in the Venusian Atmosphere: A Strict Upper Limit from SOFIA GREAT Observations." *Geophysical Research Letters*, 49(13), e2022GL101055. https://doi.org/10.1029/2022GL101055
 
 [62] Bains, W. et al. (2021). "Phosphine on Venus Cannot Be Explained by Conventional Processes." *Astrobiology*, 21(10), 1277–1304. https://doi.org/10.1089/ast.2020.2352
 
