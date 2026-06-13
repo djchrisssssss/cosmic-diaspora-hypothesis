@@ -42,14 +42,14 @@
 | 類別 | 驗證結果 | 方法 |
 |------|---------|------|
 | 天文物理宣稱 | 13/13 | `astropy`（Planck18 宇宙學模型） |
-| 生物學宣稱 | 7 | PubMed / NCBI 文獻回顧 |
-| 物理與工程宣稱 | 13 | 同行評審文獻 |
-| DOI 引用 | 37/37 | CrossRef REST API |
-| 純 URL 引用 | 17 | 機構來源目錄 |
-| 本次修訂新增引用 | 12 | [55]–[66]：費米消解、生命起源貝氏分析、NfoLD 框架、技術標記可偵測性、金星約束、3I/ATLAS、Rubin 天文台 |
+| 生物學宣稱 | 9（7 確證 + 2 有保留） | PubMed / NCBI 文獻回顧 |
+| 物理與工程宣稱 | 11/11 | 同行評審文獻 |
+| DOI 引用 | 44/44 | CrossRef REST API |
+| 純 URL 引用 | 20 | 機構來源目錄 |
+| arXiv 預印本 | 2/2 | arXiv |
 | **引用總數** | **66** | |
 
-> 完整方法論、逐項驗證表格及 DOI 審計結果詳見[驗證報告](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md)。
+> 引用計數依據機器稽核（[`verification.json`](./verification/verification.json)）的來源類型分類。66 篇中，[55]–[66]（12 篇）為 v3 修訂新增：費米悖論消解、生命起源貝氏分析、NfoLD 框架、技術標記可偵測性、金星約束、3I/ATLAS、Rubin 天文台。完整方法論、逐項驗證表格及 DOI 審計詳見[驗證報告](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md)。
 
 ---
 

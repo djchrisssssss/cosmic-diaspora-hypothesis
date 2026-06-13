@@ -88,7 +88,7 @@ Biological claims were verified through literature review and PubMed database cr
 
 ## 3. Citation & Reference Verification
 
-Total references: **66** (37 original DOIs + 17 URL-only institutional/mission references + 12 new references [55]–[66] added in v3). All original 37 DOIs were verified via CrossRef API for resolution, author accuracy, and publication metadata. The 12 new references are verified below in Section 3c.
+Total references: **66**. By source type (machine audit, [`verification.json`](../../verification/verification.json)): **44 DOI, 20 URL-only, 2 arXiv**. For traceability, the per-item verification below is organized by revision batch rather than by source type: 37 original DOIs (§3a), 17 original URL-only institutional/mission references (§3b), and 12 new references [55]–[66] added in v3 (§3c). All original 37 DOIs were verified via CrossRef API for resolution, author accuracy, and publication metadata; the 12 new references are verified below in Section 3c.
 
 ### 3a. Full DOI Verification
 

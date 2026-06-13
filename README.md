@@ -42,14 +42,14 @@ All factual claims and references have been systematically self-verified using c
 | Category | Verified | Method |
 |----------|----------|--------|
 | Astrophysical claims | 13/13 | `astropy` (Planck18 cosmology) |
-| Biological claims | 7 | PubMed / NCBI literature review |
-| Physics & engineering claims | 13 | Peer-reviewed literature |
-| DOI references | 37/37 | CrossRef REST API |
-| URL-only references | 17 | Institutional source catalog |
-| New references (this revision) | 12 | [55]–[66]: Fermi dissolution, abiogenesis Bayesian, NfoLD framework, technosignature detectability, Venus constraints, 3I/ATLAS, Rubin Observatory |
+| Biological claims | 9 (7 verified + 2 qualified) | PubMed / NCBI literature review |
+| Physics & engineering claims | 11/11 | Peer-reviewed literature |
+| DOI references | 44/44 | CrossRef REST API |
+| URL-only references | 20 | Institutional source catalog |
+| arXiv preprints | 2/2 | arXiv |
 | **Total references** | **66** | |
 
-> Full methodology, per-claim tables, and complete DOI audit results are documented in the [Verification Report](./markdown/en/VERIFICATION-REPORT.md).
+> Reference counts follow the source-type classification in the machine audit ([`verification.json`](./verification/verification.json)). Of the 66, references [55]–[66] (12) were added in the v3 revision: Fermi paradox dissolution, abiogenesis Bayesian analysis, NfoLD framework, technosignature detectability, Venus constraints, 3I/ATLAS, Rubin Observatory. Full methodology, per-claim tables, and the complete DOI audit are documented in the [Verification Report](./markdown/en/VERIFICATION-REPORT.md).
 
 ---
 

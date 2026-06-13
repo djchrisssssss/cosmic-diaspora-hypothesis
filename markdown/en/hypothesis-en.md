@@ -116,7 +116,7 @@ On cosmic timescales (10⁹ year scale):
 
 Over 240 molecular species have been detected in the interstellar medium as of 2021 [46] (the vast majority being organic), including:
 
-- Amino acids and their precursors (e.g., glycine detected toward a solar-type protostar; see [5], a preprint whose DOI resolves to first author Quan rather than Rivilla — citation metadata may change upon formal publication)
+- Amino acids and their precursors (e.g., glycine — a preprint [5] reports a detection toward a solar-type protostar, but interstellar gas-phase glycine detection has historically been contested and this claim remains unconfirmed pending peer review; the preprint's DOI also resolves to first author Quan rather than Rivilla, and citation metadata may change upon formal publication)
 - Polycyclic aromatic hydrocarbons (PAHs)
 - Alcohols, aldehydes, and nitrogen-containing organics
 
@@ -261,6 +261,8 @@ This derivation does not violate bioelectrochemical principles — it only requi
 - Precise quantum-level signal control
 - Quantum-secured communication channels (utilizing quantum key distribution to ensure communication security, paired with highly directional photon carriers, making signals practically undetectable by third parties)
 - Directed wireless energy transmission systems (microwave or laser energy beams)
+
+**Physical constraints and speculative status:** The phrase "only requires materials engineering breakthroughs" above understates the difficulty. This section (biological–mechanical integration, remote power delivery, consciousness-level transmission) is the most physically unconstrained and speculative part of this framework and should be clearly distinguished from the preceding materials and energy derivations. Two key constraints remain unresolved: (1) **the thermodynamic ceiling on remote power delivery** — sustaining metabolic-level continuous power (≈20 W for the brain, ≈100 W whole-body) via a directed energy beam incurs severe heating and efficiency losses from absorption and scattering in biological tissue; this is orders of magnitude beyond near-field low-power Qi charging, and no feasible "wireless life-sustaining power" pathway currently exists; (2) **consciousness-level transmission has no neural-coding basis** — directly encoding concepts, images, and emotions into transmissible neural signals exceeds the current neuroscientific understanding of neural coding and is an unverified speculation. This section should therefore be read as a conditional thought experiment: "if these unresolved constraints are overcome, then…".
 
 ---
 
@@ -431,7 +433,7 @@ If both energy and information can be transmitted losslessly to biological bodie
 - **Unlimited-endurance biological probes** — Biological bodies as probe carriers, achieving theoretically unlimited mission endurance through remote charging.
 - **Distributed sensing arrays** — Large numbers of individuals distributed across vast areas, sharing perceptual data, forming a biological-grade distributed radar network.
 
-This explains certain UAP report observations where "biological entities appear to carry no equipment" — equipment may have been integrated within the biological body, or external equipment may simply not be needed.
+If the highly speculative technologies above hold, they would offer one in-framework interpretation of certain UAP report observations where "biological entities appear to carry no equipment" (equipment integrated within the body, or no external equipment needed) — but this interpretation rests on the most speculative assumptions in this section and should not be treated as a substantive explanation of UAP phenomena.
 
 ### 3.6 Distributed Civilization Architecture
 
@@ -588,7 +590,7 @@ Before detailing each existence model, the following table summarizes the prior 
 | Directed migration (Mars→Venus→Earth relay) (§10–11) | **Very Low** | Temporal ordering of habitability windows; panspermia feasibility | Multi-body biosignature comparison; genetic analysis of any extraterrestrial biology found | High — chain of low-prior assumptions multiplied together |
 | Distributed non-material civilization (§0.5) | **Not assessable** | None; unfalsifiable by design | No empirical pathway exists | N/A — outside scope of falsifiable science |
 
-**Reading note:** "Very Low" prior does not mean "impossible" — it means the claim requires substantially more evidence than currently available before it can compete with simpler explanations. The reference numbers in brackets (e.g., [55]) correspond to newly added references in this revision; see References section.
+**Reading note:** "Very Low" prior does not mean "impossible" — it means the claim requires substantially more evidence than currently available before it can compete with simpler explanations. In particular, the directed-migration relay (Mars → Venus → Earth) is a product of several individually "Very Low" priors, so its compound posterior is the lowest of any branch — it should be read as a logical possibility retained for structural completeness and falsifiability, not as a credible scenario. The reference numbers in brackets (e.g., [55]) correspond to newly added references in this revision; see References section.
 
 ## V. Extra-Solar System Observer Model
 
@@ -1080,7 +1082,7 @@ Human DNA also contains incompletely understood "genetic bottleneck" events (e.g
 3. **Cultural diffusion hypothesis** — cultural contact along early human migration routes propagated core narrative motifs.
 4. **Civilization severance encoding hypothesis** (proposed by this framework) — structural similarities reflect compressed memories of the same one or more civilization severance events.
 
-The above hypotheses carry equal prior weight at the current level of evidence. This framework proposes the fourth hypothesis as a supplement, not a replacement for the first three. Distinguishing among these hypotheses requires evidence independent of mythology itself (e.g., contemporaneous anomalies in the geological record, non-natural genetic markers in ancient DNA, etc.).
+The above hypotheses carry equal prior weight at the current level of evidence. This framework proposes the fourth hypothesis as a supplement, not a replacement for the first three. Distinguishing among these hypotheses requires evidence independent of mythology itself (e.g., contemporaneous anomalies in the geological record, non-natural genetic markers in ancient DNA, etc.). It must be emphasized that, of the four, the fourth hypothesis (civilizational-rupture encoding) has the weakest evidential basis and is the most speculative: no evidence independent of mythology currently supports it, placing it below the first three — which are each backed by cognitive science, geology, or anthropology. It is offered to enumerate the possibility space, not to claim parity of credibility with the first three.
 
 ### 11.4 Mars Phase: Possible Early Deployment Node
 
