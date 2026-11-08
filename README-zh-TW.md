@@ -51,7 +51,7 @@
 
 > 逐項宣稱的計數（天文物理、生物、物理與工程）來自 v1–v3 稽核；其中數項宣稱已在 v4 更正（恆星形成換算、金星表面數值、CDMS 分子數、p-¹¹B 溫度、室溫超導限制、LSST 星際天體偵測率）——詳見[驗證報告](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md)中的註記。
 >
-> 引用計數依據 Markdown 參考文獻清單（機器稽核 [`verification.json`](./verification/verification.json) 將 2 筆純 arXiv 條目計為 URL 來源）。175 篇中，[55]–[66]（12 篇）為 v3 修訂新增，[67]–[175]（109 篇）為 v4 修訂新增（清單中另有 3 筆標註為預印本）。v3 新增涵蓋：費米悖論消解、生命起源貝氏分析、NfoLD 框架、技術標記可偵測性、金星約束、3I/ATLAS、Rubin 天文台。最新機器稽核（2026-11-08，共 175 筆）：170 筆通過、3 筆受限（對自動化請求回傳 HTTP 403 的網頁：[120] media.defense.gov、[122] aaro.mil、[138] skyandtelescope.org；已人工核對）、2 筆失敗（[9] Kardashev 1964 與 [20] Freitas 1980，其 ADS 摘要頁會拒絕部分網路的自動化請求）。完整方法論、逐項驗證表格及 DOI 審計詳見[驗證報告](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md)。
+> 引用計數依據 Markdown 參考文獻清單（機器稽核 [`verification.json`](./verification/verification.json) 將 2 筆純 arXiv 條目計為 URL 來源）。175 篇中，[55]–[66]（12 篇）為 v3 修訂新增，[67]–[175]（109 篇）為 v4 修訂新增（清單中另有 3 筆標註為預印本）。v3 新增涵蓋：費米悖論消解、生命起源貝氏分析、NfoLD 框架、技術標記可偵測性、金星約束、3I/ATLAS、Rubin 天文台。最新機器稽核（2026-11-08，共 175 筆）：171 筆通過、2 筆受限（對自動化請求回傳 HTTP 403 的網頁：[120] media.defense.gov、[122] aaro.mil；已人工核對；[138] skyandtelescope.org 在部分網路也會回傳 403）、2 筆失敗（[9] Kardashev 1964 與 [20] Freitas 1980，其 ADS 摘要頁會拒絕部分網路的自動化請求）。完整方法論、逐項驗證表格及 DOI 審計詳見[驗證報告](./markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md)。
 
 ---
 

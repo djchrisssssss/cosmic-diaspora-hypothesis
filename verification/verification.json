@@ -11,9 +11,9 @@
       "url": 38
     },
     "status_counts": {
-      "verified": 170,
+      "verified": 171,
       "failed": 2,
-      "restricted": 3
+      "restricted": 2
     },
     "manual_review_keys": [],
     "document_count_consistency": {
@@ -2763,12 +2763,12 @@
       "archive_prefix": null,
       "source_type": "url",
       "checked_url": "https://skyandtelescope.org/astronomy-news/nasas-budget-woes-are-over-for-now/",
-      "verification_status": "restricted",
-      "http_status": 403,
+      "verification_status": "verified",
+      "http_status": 200,
       "resolved_url": "https://skyandtelescope.org/astronomy-news/nasas-budget-woes-are-over-for-now/",
       "resolved_identifier": "https://skyandtelescope.org/astronomy-news/nasas-budget-woes-are-over-for-now/",
       "resolved_title": null,
-      "notes": "Endpoint responded with 403; resource may be bot-protected."
+      "notes": null
     },
     {
       "reference_number": 139,
