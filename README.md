@@ -37,19 +37,21 @@ A structured hypothesis framework exploring the statistical foundations of cosmi
 
 ## Verification Summary
 
-All factual claims and references have been systematically self-verified using computational tools and public databases (author-run pipeline, not third-party review).
+Factual claims and references were checked with computational tools and public databases (author-run pipeline). In November 2026 the document also went through an AI-assisted five-pass referee review (the v4 revision; see the Verification Report). There has been no human peer review.
 
-| Category | Verified | Method |
+| Category | Verified (v1–v3 text) | Method |
 |----------|----------|--------|
 | Astrophysical claims | 13/13 | `astropy` (Planck18 cosmology) |
-| Biological claims | 9 (7 verified + 2 qualified) | PubMed / NCBI literature review |
+| Biological claims | 9 (6 verified + 3 qualified) | PubMed / NCBI literature review |
 | Physics & engineering claims | 11/11 | Peer-reviewed literature |
-| DOI references | 44/44 | CrossRef REST API |
-| URL-only references | 20 | Institutional source catalog |
-| arXiv preprints | 2/2 | arXiv |
-| **Total references** | **66** | |
+| DOI references | 137 | DOIs resolve and title/first author match Crossref (machine check, see `verification.json`); metadata of corrected entries audited manually in the v4 review |
+| URL-only references | 36 | Page fetched at insertion time (contents may change) |
+| arXiv-only preprints | 2 | arXiv |
+| **Total references** | **175** | |
 
-> Reference counts follow the source-type classification in the machine audit ([`verification.json`](./verification/verification.json)). Of the 66, references [55]–[66] (12) were added in the v3 revision: Fermi paradox dissolution, abiogenesis Bayesian analysis, NfoLD framework, technosignature detectability, Venus constraints, 3I/ATLAS, Rubin Observatory. Full methodology, per-claim tables, and the complete DOI audit are documented in the [Verification Report](./markdown/en/VERIFICATION-REPORT.md).
+> Per-claim counts (astrophysical, biological, physics & engineering) come from the v1–v3 audits; several of those claims were corrected in v4 (star-formation conversion, Venus surface values, CDMS molecule count, p-¹¹B temperature, room-temperature superconductivity limit, LSST interstellar-object rate) — see the notes in the [Verification Report](./markdown/en/VERIFICATION-REPORT.md).
+>
+> Reference counts follow the Markdown reference list (the machine audit in [`verification.json`](./verification/verification.json) counts the 2 arXiv-only entries as URL sources). Of the 175, references [55]–[66] (12) were added in the v3 revision and [67]–[175] (109) in the v4 revision (3 entries in the list are marked as preprints). The v3 additions cover: Fermi paradox dissolution, abiogenesis Bayesian analysis, NfoLD framework, technosignature detectability, Venus constraints, 3I/ATLAS, Rubin Observatory. Latest machine audit (2026-11-08, 175 entries): 170 verified, 3 restricted (pages that return HTTP 403 to automated requests: [120] media.defense.gov, [122] aaro.mil, [138] skyandtelescope.org; checked manually), 2 failed ([9] Kardashev 1964 and [20] Freitas 1980, whose ADS abstract pages reject automated requests from some networks). Full methodology, per-claim tables, and the complete DOI audit are documented in the [Verification Report](./markdown/en/VERIFICATION-REPORT.md).
 
 ---
 
@@ -59,10 +61,11 @@ All factual claims and references have been systematically self-verified using c
 - **Part I — Foundations of Cosmic Life Diffusion** — Stellar formation, habitable zones, extremophiles, lithopanspermia, abiogenesis probability constraint (§1.6)
 - **Part II — Civilization Evolution & Technology Thresholds** — Energy hierarchy, fusion fuel cycle constraints, material breakthroughs, material system integration limits (§3.3.4), compact fusion, metamaterials
 - **Part III — Structural Classification of ET Events** — 7-source classification model for contemporary extraterrestrial events, SETI directed communication limitations
-- **Part IV — Civilization Existence Models** — Bayesian prior assessment table, extra-solar observers, ancient Martian civilization, ancient Venus civilization (with balanced 2024–2026 literature constraints), ancient Earth civilization, panspermia vs directed migration distinction criteria
+- **Part IV — Civilization Existence Models** — qualitative credence assessment table, extra-solar observers, ancient Martian civilization, ancient Venus civilization (with balanced 2024–2026 literature constraints), ancient Earth civilization, panspermia vs directed migration distinction criteria
 - **Part V — Base Engineering & Stealth Matrix** — Site selection, energy self-sufficiency, EM/thermal suppression, Venus atmospheric energy budget & parameter sensitivity analysis
-- **Part VI — Cross-Galactic Mission Architecture & Human Positioning** — Deployment logic, civilization reset cycles, memory compression, human mission positioning
-- **Part VII — Verifiable Observation Pathways** — Instrument-threshold detection table (§13.0), subsurface imaging, deep-sea scanning, gravitational anomaly monitoring, interstellar object spectral analysis including 3I/ATLAS (§13.7)
+- **Part VI — Interstellar Mission Architecture & Human Positioning** — Deployment logic, civilization reset cycles, memory compression, human mission positioning
+- **Part VII — Verifiable Observation Pathways** — Instrument-threshold detection table (§12.0), subsurface imaging, deep-sea scanning, gravitational anomaly monitoring, interstellar object spectral analysis including 3I/ATLAS (§12.7)
+- **v4 review (2026-11)** — Five-pass AI-assisted referee review (174 findings); text hedged and corrected, arabic sections §10–13 renumbered to §9–12, references expanded from 66 to 175 (details in the Verification Report)
 - **Appendix A — Cognitive Deconstruction** — "Alien" as semantic compression, multi-source model ensemble (relocated from former Part VI)
 
 ---
@@ -93,6 +96,7 @@ This hypothesis was co-created with the assistance of AI models and tools:
 - `markdown/en/hypothesis-en.md` is the working source for English prose edits and AI-assisted content iteration.
 - `markdown/zh-TW/hypothesis-zh-TW.md` is the working source for zh-TW / 正體中文 prose edits and AI-assisted content iteration.
 - `latex/main.tex` is the publication/export source used when preparing the final PDF in Overleaf.
+- Section numbers in the PDF follow LaTeX automatic numbering and therefore differ from the Markdown section numbers; citation numbers are forced to match the Markdown via `\nocite`.
 - The compiled PDF is not tracked in this repository. Export it from Overleaf when needed.
 - When a structural or citation change affects more than one document, update the related Markdown and LaTeX files in the same PR or note the remaining sync gap explicitly.
 
