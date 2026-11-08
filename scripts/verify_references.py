@@ -7,8 +7,11 @@ import argparse
 import csv
 import json
 import re
+import difflib
 import hashlib
+import os
 import time
+import unicodedata
 from collections import Counter
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional
@@ -26,9 +29,10 @@ COUNT_PATTERNS = {
     "README-zh-TW.md": re.compile(r"\|\s*\*\*引用總數\*\*\s*\|\s*\*\*(\d+)\*\*"),
     "markdown/en/VERIFICATION-REPORT.md": re.compile(r"Total references:\s*\*\*(\d+)\*\*"),
     "markdown/zh-TW/VERIFICATION-REPORT-zh-TW.md": re.compile(
-        r"(?:引用總數[:：]?\s*\*\*(\d+)\*\*|全部\s*(\d+)\s*篇參考文獻)"
+        r"(?:引用總數[:：]?\s*\*\*(\d+)\*\*|總參考文獻數[:：]\s*\*\*(\d+)|全部\s*(\d+)\s*篇參考文獻)"
     ),
 }
+TITLE_SIMILARITY_THRESHOLD = 0.85
 USER_AGENT = (
     "CosmicDiasporaHypothesisVerification/0.1 "
     "(https://github.com/djchrisssssss/cosmic-diaspora-hypothesis)"
@@ -101,6 +105,8 @@ def extract_url(entry: dict) -> Optional[str]:
 def normalize_source(entry: dict) -> dict:
     doi = entry.get("doi", "").strip() or None
     url = extract_url(entry)
+    if url:  # undo LaTeX escapes kept in bib url fields, e.g. FY25\%20UAP
+        url = url.replace("\\%", "%").replace("\\_", "_").replace("\\#", "#")
     eprint = entry.get("eprint", "").strip() or None
     archive_prefix = entry.get("archiveprefix", "").strip().lower()
 
@@ -127,6 +133,82 @@ def normalize_source(entry: dict) -> dict:
     }
 
 
+def normalize_title(text: Optional[str]) -> str:
+    """Lowercase, strip LaTeX braces/commands and punctuation, collapse whitespace."""
+    if not text:
+        return ""
+    text = re.sub(r"<[^>]+>", " ", text)  # Crossref titles may contain JATS/MathML tags
+    text = re.sub(r"\\[a-zA-Z]+", " ", text)
+    text = text.replace("{", "").replace("}", "").replace("\\", "")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    text = re.sub(r"[^\w\s]", " ", text.lower())
+    return re.sub(r"\s+", " ", text).strip()
+
+
+def normalize_surname(text: Optional[str]) -> str:
+    if not text:
+        return ""
+    text = re.sub(r"\\[a-zA-Z]+\s*|\\[^a-zA-Z\s]", "", text)  # LaTeX accents, e.g. Mar{\v{c}}eta
+    text = text.replace("{", "").replace("}", "").replace("\\", "")
+    text = unicodedata.normalize("NFKD", text)
+    text = "".join(ch for ch in text if not unicodedata.combining(ch))
+    return re.sub(r"[^a-z]", "", text.lower())
+
+
+def bib_first_author_surname(entry: dict) -> Optional[str]:
+    authors = entry.get("author", "")
+    if not authors.strip():
+        return None
+    first = re.split(r"\s+and\s+", authors.strip())[0].strip()
+    if first.startswith("{") and first.endswith("}"):
+        return first.strip("{}")  # corporate author
+    if "," in first:
+        return first.split(",", 1)[0].strip()
+    parts = first.split()
+    return parts[-1] if parts else None
+
+
+def crossref_first_author(message: dict) -> Optional[str]:
+    for author in message.get("author") or []:
+        return author.get("family") or author.get("name")
+    return None
+
+
+def check_doi_metadata(entry: dict, message: dict) -> Optional[str]:
+    """Return a mismatch reason (str) or None if title and first author agree with Crossref."""
+    reasons = []
+    cr_titles = message.get("title") or []
+    cr_subtitles = message.get("subtitle") or []
+    bib_title = normalize_title(entry.get("title"))
+    if bib_title and cr_titles:
+        candidates = [normalize_title(t) for t in cr_titles]
+        candidates += [normalize_title(f"{t} {s}") for t in cr_titles for s in cr_subtitles]
+        ratio = max(difflib.SequenceMatcher(None, bib_title, c).ratio() for c in candidates)
+        # Crossref often stores only the main title; accept a bib title that extends it with a subtitle.
+        if any(len(c) >= 12 and bib_title.startswith(c) for c in candidates):
+            ratio = 1.0
+        if ratio < TITLE_SIMILARITY_THRESHOLD:
+            reasons.append(
+                f"title mismatch (similarity {ratio:.2f} < {TITLE_SIMILARITY_THRESHOLD}): "
+                f"bib={entry.get('title')!r} crossref={cr_titles[0]!r}"
+            )
+    bib_author = bib_first_author_surname(entry)
+    cr_author = crossref_first_author(message)
+    if bib_author and cr_author:
+        a, b = normalize_surname(bib_author), normalize_surname(cr_author)
+        if a and b and a != b and a not in b and b not in a:
+            reasons.append(f"first-author mismatch: bib={bib_author!r} crossref={cr_author!r}")
+    return "; ".join(reasons) or None
+
+
+def display_path(path: Path, root: Path) -> str:
+    try:
+        return os.path.relpath(path, root)
+    except ValueError:
+        return str(path)
+
+
 def verify_doi(doi: str, checked_url: str, session: requests.Session, timeout: float) -> dict:
     try:
         response = session.get(checked_url, timeout=timeout)
@@ -139,6 +221,7 @@ def verify_doi(doi: str, checked_url: str, session: requests.Session, timeout: f
             "resolved_url": message.get("URL"),
             "resolved_identifier": message.get("DOI"),
             "resolved_title": titles[0] if titles else None,
+            "crossref_first_author": crossref_first_author(message),
             "notes": None if response.ok else f"Crossref returned status {response.status_code}",
         }
     except (requests.RequestException, ValueError, KeyError) as exc:
@@ -281,6 +364,11 @@ def verify_entries(
             )
         elif normalized["source_type"] == "doi":
             result.update(verify_doi(normalized["doi"], normalized["checked_url"], session, timeout))
+            if result["verification_status"] == "verified" and result.get("resolved_title"):
+                reason = check_doi_metadata(entry, {"title": [result["resolved_title"]], "author": [{"family": result.get("crossref_first_author")}] if result.get("crossref_first_author") else []})
+                if reason:
+                    result["verification_status"] = "manual_review_required"
+                    result["reason"] = reason
             time.sleep(sleep_seconds)
         elif normalized["source_type"] in {"url", "arxiv"}:
             result.update(verify_url(normalized["checked_url"], session, timeout))
@@ -343,8 +431,10 @@ def write_csv(path: Path, rows: List[dict]) -> None:
         "resolved_url",
         "resolved_identifier",
         "resolved_title",
+        "crossref_first_author",
         "http_status",
         "notes",
+        "reason",
     ]
     with path.open("w", encoding="utf-8", newline="") as handle:
         writer = csv.DictWriter(handle, fieldnames=fieldnames)
@@ -378,10 +468,10 @@ def main() -> int:
     )
 
     payload = {
-        "bib_path": str(bib_path.relative_to(repo_root)),
+        "bib_path": display_path(bib_path, repo_root),
         "bib_sha256": bib_sha256,
-        "json_output": str(json_output.relative_to(repo_root)),
-        "csv_output": str(csv_output.relative_to(repo_root)),
+        "json_output": display_path(json_output, repo_root),
+        "csv_output": display_path(csv_output, repo_root),
         "summary": build_summary(results, declared_counts, args.offline),
         "entries": results,
     }
@@ -391,8 +481,8 @@ def main() -> int:
     print(
         json.dumps(
             {
-                "json_output": str(json_output.relative_to(repo_root)),
-                "csv_output": str(csv_output.relative_to(repo_root)),
+                "json_output": display_path(json_output, repo_root),
+                "csv_output": display_path(csv_output, repo_root),
                 "summary": payload["summary"],
             },
             indent=2,
